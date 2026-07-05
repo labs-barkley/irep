@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IREP — Individual-Referential Evaluation Protocol | Open Standard for Fair Hiring</title>
+<meta name="description" content="IREP (Individual-Referential Evaluation Protocol) is a free, open standard for fair hiring and admissions: category-blind, trajectory-rich evaluation first; demographic measurement after the decision, for audit only. Grounded in 30 years of research on stereotype threat, hiring discrimination and algorithmic fairness. Not a product — a commons.">
+<meta name="keywords" content="IREP, Individual-Referential Evaluation Protocol, fair hiring, open standard, hiring bias, recruitment discrimination, skills-based hiring, blind hiring alternative, anonymous CV, stereotype threat, algorithmic fairness, EU AI Act recruitment, individual baseline, longitudinal evaluation, equity audit, open source hiring protocol, Elodie Aishwarya P. Remoissenet">
+<link rel="canonical" href="https://irepprotocol.org/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://irepprotocol.org/">
+<meta property="og:site_name" content="IREP — Individual-Referential Evaluation Protocol">
+<meta property="og:title" content="IREP — I represent myself. An open protocol for fair hiring.">
+<meta property="og:description" content="Evaluate the person — evidence, work, trajectory. Move every category label to where it belongs: after the decision, in the audit. Free, open, forever.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="IREP — Individual-Referential Evaluation Protocol">
+<meta name="twitter:description" content="An open standard for fair hiring and admissions. Not a product. Not a company. A commons.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23FAF7F1'/%3E%3Ctext x='16' y='22' font-family='monospace' font-size='14' font-weight='600' text-anchor='middle' fill='%230B5FA5'%3EIR%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://irepprotocol.org/#website",
+      "url": "https://irepprotocol.org/",
+      "name": "IREP — Individual-Referential Evaluation Protocol",
+      "alternateName": ["IREP", "I represent myself"],
+      "description": "An open, free, non-commercial protocol for hiring and admissions: category-blind, trajectory-rich evaluation first; demographic measurement after the decision, firewalled, for audit only.",
+      "inLanguage": "en",
+      "publisher": {"@id": "https://irepprotocol.org/#steward"}
+    },
+    {
+      "@type": "Person",
+      "@id": "https://irepprotocol.org/#initiator",
+      "name": "Elodie Aishwarya P. Remoissenet",
+      "sameAs": [
+        "https://orcid.org/0009-0004-6031-659X",
+        "https://github.com/labs-barkley",
+        "https://www.linkedin.com/in/elodieremoissenet"
+      ],
+      "jobTitle": "Founder & CEO, Barkley AI; initiator and initial steward of IREP",
+      "description": "IREP was initiated by Elodie Aishwarya P. Remoissenet as an open protocol inspired by her earlier work on individual reference frames and longitudinal evaluation.",
+      "knowsAbout": ["individual reference frames", "longitudinal evaluation", "algorithmic fairness", "behavioral intelligence", "customer experience operations"]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://irepprotocol.org/#steward",
+      "name": "IREP Commons (initial steward: Barkley Labs)",
+      "url": "https://irepprotocol.org/",
+      "email": "commons@irepprotocol.org",
+      "nonprofitStatus": "Nonprofit (collective vehicle in formation)",
+      "founder": {"@id": "https://irepprotocol.org/#initiator"}
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://irepprotocol.org/#spec",
+      "headline": "The Individual-Referential Evaluation Protocol (IREP): An Open Standard for Category-Blind, Trajectory-Rich Assessment in Hiring and Admissions",
+      "author": {"@id": "https://irepprotocol.org/#initiator"},
+      "version": "0.1",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://github.com/labs-barkley/irep/blob/main/spec/IREP-v0.1.md",
+      "isPartOf": {"@id": "https://irepprotocol.org/#website"},
+      "about": ["hiring discrimination", "stereotype threat", "algorithmic fairness", "equity auditing", "selection methods"]
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://irepprotocol.org/#repo",
+      "name": "IREP reference repository",
+      "codeRepository": "https://github.com/labs-barkley/irep",
+      "programmingLanguage": "Python",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "author": {"@id": "https://irepprotocol.org/#initiator"},
+      "isAccessibleForFree": true,
+      "description": "Specification, annotated evidence base (30+ years), validation plan, synthetic mechanism demonstration, AI-agent interfaces (llms.txt, AGENTS.md, Claude skill) and canonical glossary."
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "https://irepprotocol.org/#glossary",
+      "name": "IREP canonical glossary",
+      "url": "https://github.com/labs-barkley/irep/blob/main/GLOSSARY.md",
+      "hasDefinedTerm": [
+        {"@type": "DefinedTerm", "name": "Individual referential", "description": "Evaluating a person against their own evidence and trajectory rather than the average of any category they belong to. The individual is the reference class; the population is the audit instrument."},
+        {"@type": "DefinedTerm", "name": "Evaluation/measurement separation", "description": "IREP's core design rule: category and demographic data are collected only after the selection decision, firewalled from evaluators, and used exclusively for contracting, compliance and equity audits."},
+        {"@type": "DefinedTerm", "name": "Category-blind, trajectory-rich", "description": "Screening that removes category labels (name, photo, age, sex, nationality, credential labels) while preserving the full narrative shape of what the candidate has done. IREP is not anonymization: it removes labels, not context."},
+        {"@type": "DefinedTerm", "name": "Compared to when", "description": "The temporal twin of 'compared to what': trajectory and slope outweigh credential snapshots. A degree records one moment; a person is a trajectory."}
+      ]
+    }
+  ]
+}
+</script>
+<style>
+  :root{
+    --paper:#FAF7F1; --ink:#201C17; --muted:#6E675D;
+    --blue:#0B5FA5; --green:#00785C; --line:#E4DDD1; --wash:#F1EBE1;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+  body{background:var(--paper);color:var(--ink);font-family:'Public Sans',system-ui,sans-serif;font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:960px;margin:0 auto;padding:0 24px}
+  a{color:var(--blue)}
+  a:focus-visible,button:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
+  header{padding:28px 0;border-bottom:1px solid var(--line)}
+  header .wrap{display:flex;justify-content:space-between;align-items:baseline}
+  .mark{font-family:'IBM Plex Mono',monospace;font-weight:500;letter-spacing:.08em}
+  nav a{font-family:'IBM Plex Mono',monospace;font-size:13px;text-decoration:none;color:var(--muted);margin-left:22px}
+  nav a:hover{color:var(--ink)}
+  .hero{padding:96px 0 72px}
+  .hero h1{font-family:'Fraunces',serif;font-weight:300;font-size:clamp(44px,7vw,84px);line-height:1.04;letter-spacing:-.01em}
+  .hero h1 em{font-style:italic;font-weight:400}
+  .kicker{font-family:'IBM Plex Mono',monospace;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:26px}
+  .redactions{margin-top:40px;font-family:'IBM Plex Mono',monospace;font-size:15px;line-height:2.3;color:var(--muted);max-width:640px}
+  .redactions s{color:#B7AFA2;text-decoration-thickness:1.5px}
+  .redactions .keep{color:var(--green);border-bottom:2px solid var(--green);text-decoration:none;font-weight:500}
+  .hero p.lede{margin-top:34px;font-size:20px;max-width:620px;color:var(--ink)}
+  .cta{margin-top:38px;display:flex;gap:14px;flex-wrap:wrap}
+  .btn{font-family:'IBM Plex Mono',monospace;font-size:14px;text-decoration:none;padding:13px 22px;border:1.5px solid var(--ink);color:var(--ink);border-radius:2px}
+  .btn.primary{background:var(--ink);color:var(--paper)}
+  .btn:hover{border-color:var(--blue);color:var(--blue)}
+  .btn.primary:hover{background:var(--blue);border-color:var(--blue);color:#fff}
+  section{padding:76px 0;border-top:1px solid var(--line)}
+  .eyebrow{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--blue);margin-bottom:18px}
+  h2{font-family:'Fraunces',serif;font-weight:400;font-size:clamp(28px,4vw,40px);line-height:1.15;max-width:640px;margin-bottom:22px}
+  .prose{max-width:640px;color:var(--ink)}
+  .prose p+p{margin-top:16px}
+  .cite{font-family:'IBM Plex Mono',monospace;font-size:12.5px;color:var(--muted)}
+  .findings{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-top:40px}
+  .finding{background:var(--paper);padding:26px 22px}
+  .finding p{font-size:15.5px}
+  .finding .cite{display:block;margin-top:14px}
+  .rail{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:44px}
+  .stage{background:var(--wash);border:1px solid var(--line);border-radius:3px;padding:22px 18px;position:relative}
+  .stage.audit{background:#EAF3EF;border-color:#CBDFD6}
+  .stage .tag{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.14em;color:var(--blue)}
+  .stage.audit .tag{color:var(--green)}
+  .stage h3{font-family:'Fraunces',serif;font-weight:600;font-size:18px;margin:10px 0 8px;line-height:1.25}
+  .stage p{font-size:13.5px;color:var(--muted);line-height:1.5}
+  .gate{margin-top:18px;font-family:'IBM Plex Mono',monospace;font-size:13px;color:var(--green)}
+  .maxim{margin-top:44px;font-family:'Fraunces',serif;font-size:clamp(22px,3vw,28px);font-weight:400;font-style:italic;max-width:680px;line-height:1.35}
+  .commons blockquote{font-family:'Fraunces',serif;font-size:clamp(24px,3.4vw,34px);font-weight:300;line-height:1.3;max-width:760px;margin:8px 0 26px}
+  .commons blockquote strong{font-weight:600}
+  .circles{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:40px}
+  .circle{border:1px solid var(--line);border-radius:3px;padding:24px 20px;background:#fff}
+  .circle h3{font-family:'Fraunces',serif;font-size:20px;font-weight:600;margin-bottom:8px}
+  .circle p{font-size:14.5px;color:var(--muted)}
+  .circle a{font-family:'IBM Plex Mono',monospace;font-size:13px;display:inline-block;margin-top:14px}
+  .honesty{background:var(--wash);border:1px solid var(--line);border-radius:3px;padding:26px;margin-top:40px;max-width:760px}
+  .honesty p{font-size:15px}
+  footer{padding:56px 0 72px;border-top:1px solid var(--line)}
+  footer p{font-size:13.5px;color:var(--muted);max-width:720px}
+  footer p+p{margin-top:10px}
+  footer .mark{color:var(--ink)}
+  @media(max-width:820px){
+    .findings,.rail,.circles{grid-template-columns:1fr}
+    .hero{padding:64px 0 52px}
+    section{padding:56px 0}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <span class="mark">IREP</span>
+    <nav aria-label="Main">
+      <a href="#protocol">Protocol</a>
+      <a href="#evidence">Evidence</a>
+      <a href="#commons">Commons</a>
+      <a href="https://github.com/labs-barkley/irep">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="hero wrap">
+    <p class="kicker">Individual-Referential Evaluation Protocol · open standard · v0.1</p>
+    <h1>I represent <em>myself.</em></h1>
+    <p class="redactions" aria-label="A form with category fields struck out and trajectory kept">
+      <s>name</s> · <s>photo</s> · <s>age</s> · <s>sex</s> · <s>nationality</s> · <s>address</s> · <s>highest degree</s> · <span class="keep">what I have actually done, and how I got here</span>
+    </p>
+    <p class="lede">IREP is an open protocol for hiring and admissions. It evaluates the person — evidence, work, trajectory — and moves every category label to where it belongs: after the decision, in the audit.</p>
+    <div class="cta">
+      <a class="btn primary" href="https://github.com/labs-barkley/irep">Read the spec</a>
+      <a class="btn" href="#circles">Join the collective</a>
+    </div>
+  </div>
+
+  <section id="evidence">
+    <div class="wrap">
+      <p class="eyebrow">Thirty years of unread memos</p>
+      <h2>The research existed. The sector never applied it.</h2>
+      <div class="findings">
+        <div class="finding">
+          <p>Merely recording your race on a form before a test measurably depressed performance. A checkbox suffices to activate a stereotype.</p>
+          <span class="cite">Steele &amp; Aronson, 1995 · JPSP</span>
+        </div>
+        <div class="finding">
+          <p>Identical CVs, only the name changed: callback rates diverge sharply. Twenty-five years of audit studies show the gap essentially unchanged.</p>
+          <span class="cite">Bertrand &amp; Mullainathan, 2004 · Quillian et al., 2017</span>
+        </div>
+        <div class="finding">
+          <p>France tested anonymous CVs at national scale. Outcomes for immigrant-background candidates got worse: masking removed context, not bias.</p>
+          <span class="cite">Behaghel, Crépon &amp; Le Barbanchon, 2015</span>
+        </div>
+      </div>
+      <p class="prose" style="margin-top:34px">The problem was never seeing or not seeing the category. It is the moment we let it speak. Machine learning reached the same conclusion years ago: protected attributes should <strong>audit</strong> decisions — never feed them.</p>
+    </div>
+  </section>
+
+  <section id="protocol">
+    <div class="wrap">
+      <p class="eyebrow">The protocol</p>
+      <h2>Evaluation first. Measurement after. Firewalled.</h2>
+      <div class="rail">
+        <div class="stage">
+          <span class="tag">STAGE 1</span>
+          <h3>Category-blind, trajectory-rich screening</h3>
+          <p>No name, photo, age, sex, nationality, or credential labels. Full richness of what the person has done — gaps, pivots, self-taught depth included.</p>
+        </div>
+        <div class="stage">
+          <span class="tag">STAGE 2</span>
+          <h3>Untimed structured assessment</h3>
+          <p>Bounded window, no per-item pressure. Validated, pre-registered rubrics only. Time pressure measures stress, not competence.</p>
+        </div>
+        <div class="stage">
+          <span class="tag">STAGE 3</span>
+          <h3>Decision on evidence</h3>
+          <p>Documented rationale, by evaluators with zero access to category data. Humans decide.</p>
+        </div>
+        <div class="stage audit">
+          <span class="tag">STAGE 4</span>
+          <h3>Post-decision measurement</h3>
+          <p>Administrative, legal and demographic data — collected after selection, firewalled, for contracts and equity audits only.</p>
+          <p class="gate">← category data enters here, and only here</p>
+        </div>
+      </div>
+      <p class="maxim">The individual is the reference class. The population is the audit instrument. And the question is not only “compared to what?” — it is “compared to when?”</p>
+    </div>
+  </section>
+
+  <section id="commons" class="commons">
+    <div class="wrap">
+      <p class="eyebrow">Offered to the commons</p>
+      <blockquote>IREP is <strong>not a product</strong>. It is <strong>not a company</strong>. It is <strong>not an asset to be owned</strong>. It is intentionally offered to the commons.</blockquote>
+      <div class="prose">
+        <p>Free, open source, permanently — including for commercial HR vendors building it into their own tools. Behind every hiring decision there are one or several lives engaged. Access to employment, like access to education, is a gateway a society cannot equitably price.</p>
+        <p>The initiator is the initial steward — not the owner: to document it, test it, and convene the people willing to improve it — before handing stewardship to a non-profit collective.</p>
+      </div>
+      <div class="honesty">
+        <p><strong>The honest part.</strong> The repo ships a synthetic demonstration — labeled loudly as a demonstration, never a validation: the biases are injected, so detecting them is circular. Real evidence follows the validation plan: retrospective re-scoring, consented parallel pilots, a pre-registered RCT. Near-term claim: IREP selects <em>differently</em>, traceably. “Better” takes longitudinal data — the protocol is judged on its trajectory, as it preaches. Null results get published.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="circles">
+    <div class="wrap">
+      <p class="eyebrow">Three circles</p>
+      <h2>It needs people more than it needs code.</h2>
+      <div class="circles">
+        <div class="circle">
+          <h3>Practitioners</h3>
+          <p>Recruiters and headhunters who never trusted the tooling. You are not ambassadors — you are the pilot sites where the head-to-head validation happens.</p>
+          <a href="https://github.com/labs-barkley/irep/issues">Open a pilot-site issue →</a>
+        </div>
+        <div class="circle">
+          <h3>Researchers</h3>
+          <p>Labor economics, I/O psychology, psychometrics, ML fairness. The field-experiment infrastructure is pre-built; the analysis plans want pre-registering.</p>
+          <a href="https://github.com/labs-barkley/irep/issues">Open a research-partner issue →</a>
+        </div>
+        <div class="circle">
+          <h3>Voices</h3>
+          <p>People who write about hiring, credentialism and the commons. Read the spec. Criticize it in public — sharp issues are the contribution.</p>
+          <a href="https://github.com/labs-barkley/irep">Read &amp; critique →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><span class="mark">IREP</span> — Individual-Referential Evaluation Protocol · <a href="https://irepprotocol.org/">irepprotocol.org</a> · also answers to <a href="https://irepresentmyself.org/">irepresentmyself.org</a></p>
+    <p>Designed for humans, documented for machines: <a href="https://github.com/labs-barkley/irep/blob/main/llms.txt">llms.txt</a> · <a href="https://github.com/labs-barkley/irep/blob/main/AGENTS.md">AGENTS.md</a> · <a href="https://github.com/labs-barkley/irep/blob/main/GLOSSARY.md">canonical glossary</a> · <a href="https://github.com/labs-barkley/irep/tree/main/principles">principles</a> · a ready-to-install <a href="https://github.com/labs-barkley/irep/tree/main/ai/skills/claude/irep-evaluation">skill for Claude</a>, with agent instructions readable by Claude, ChatGPT, Gemini and any agentic system. One rule for all of them: you assist; humans decide (EU AI Act, Annex III).</p>
+    <p>IREP was initiated by Elodie Aishwarya P. Remoissenet as an open protocol inspired by her earlier work on individual reference frames and longitudinal evaluation. Specification licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> (provisional). AI tools were used for drafting assistance under the author's full editorial control.</p>
+    <p>Write to the commons: <a href="mailto:commons@irepprotocol.org">commons@irepprotocol.org</a> · research partnerships: <a href="mailto:research@irepprotocol.org">research@irepprotocol.org</a> · code &amp; issues: <a href="https://github.com/labs-barkley/irep">github.com/labs-barkley/irep</a></p>
+    <p>If a form field has ever answered in your place — this one's for you.</p>
+  </div>
+</footer>
+
+</body>
+</html>

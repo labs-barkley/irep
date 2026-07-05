@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use or reference IREP, please cite it as below."
+title: "IREP — Individual-Referential Evaluation Protocol"
+abstract: "An open, free, non-commercial protocol for hiring and admissions: category-blind, trajectory-rich evaluation first; demographic and administrative measurement after the decision, firewalled, for audit only. The individual is the reference class; the population is the audit instrument."
+type: software
+authors:
+  - family-names: "Remoissenet"
+    given-names: "Elodie Aishwarya P."
+    orcid: "https://orcid.org/0009-0004-6031-659X"
+version: "0.1.0"
+date-released: "2026-07-05"
+license: "CC-BY-4.0"
+repository-code: "https://github.com/labs-barkley/irep"
+url: "https://irepprotocol.org"
+keywords:
+  - fair hiring
+  - open standard
+  - hiring discrimination
+  - stereotype threat
+  - algorithmic fairness
+  - equity audit
+  - individual baseline
+  - longitudinal evaluation
+  - EU AI Act
+# identifiers:
+#   - type: doi
+#     value: 10.5281/zenodo.XXXXXXX   # uncomment after Zenodo deposit
