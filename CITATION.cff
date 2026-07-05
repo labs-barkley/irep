@@ -1,7 +1,7 @@
-cff-version: 1.2.0
+﻿cff-version: 1.2.0
 message: "If you use or reference IREP, please cite it as below."
 title: "IREP — Individual-Referential Evaluation Protocol"
-abstract: "An open, free, non-commercial protocol for hiring and admissions: category-blind, trajectory-rich evaluation first; demographic and administrative measurement after the decision, firewalled, for audit only. The individual is the reference class; the population is the audit instrument."
+abstract: "A free, open, non-proprietary and not-for-sale protocol (available to commercial and non-commercial implementers alike) for hiring and admissions: category-blind, trajectory-rich evaluation first; demographic and administrative measurement after the decision, firewalled, for audit only. The individual is the reference class; the population is the audit instrument."
 type: software
 authors:
   - family-names: "Remoissenet"

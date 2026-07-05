@@ -1,4 +1,4 @@
-# IREP — Individual-Referential Evaluation Protocol
+﻿# IREP — Individual-Referential Evaluation Protocol
 
 **An open standard for category-blind, trajectory-rich assessment in hiring and admissions.**
 
@@ -10,12 +10,12 @@ IREP is a free, open, implementable protocol for selection processes (employment
 
 - **Category salience harms candidates at evaluation time** (Steele & Aronson, 1995: a checkbox suffices).
 - **Category signals bias evaluators** (Bertrand & Mullainathan, 2004, and two decades of audit studies: identical files, different outcomes).
-- **Masking alone backfires** (Behaghel, Crépon & Le Barbanchon: France's anonymous-CV experiment worsened outcomes for the candidates it meant to protect).
+- **Masking alone can backfire** (Behaghel, Crépon & Le Barbanchon: France's anonymous-CV experiment worsened outcomes for the candidates it meant to protect).
 - **Deleting the attribute doesn't delete its influence** (algorithmic fairness: categories leak through proxies).
 
 IREP's answer is not to hide category data but to **relocate it in time**: evaluation is category-blind but trajectory-rich; assessment is untimed within a bounded window; demographic and credential data are collected **after** the decision, firewalled from evaluators, and used exclusively for audit, compliance and administration.
 
-**The individual is the reference class. The population is the audit instrument.**
+**The individual is the reference class. The population is the audit instrument.** In full: the individual is the unit of interpretation; the role is the standard of decision; the population is the instrument of audit.
 
 ## The four stages
 
@@ -30,7 +30,7 @@ IREP's answer is not to hide category data but to **relocate it in time**: evalu
 
 ![Pipeline comparison on synthetic data](simulation/figures/fig1_pipeline_comparison.png)
 
-On a synthetic population where both groups have identical true competence *by construction*, a conventional pipeline (category-visible, credential-bonused, time-pressured) selects a group-B share of ~16% against a 30% population baseline; the IREP pipeline restores group B to its population share **while selecting higher mean true competence** — because the injected bias was noise, not information. The two pipelines overlap on fewer than half their selections. **Illustrative only: the biases are injected, so detecting them is circular** — see [`VALIDATION.md`](VALIDATION.md) for the real-data stages.
+On a synthetic population where both groups have identical true competence *by construction*, a conventional pipeline (category-visible, credential-bonused, time-pressured) selects a group-B share of ~16% against a 30% population baseline; the IREP pipeline restores group B to its population share **while selecting higher mean true competence**: under the explicitly stated assumptions, the IREP pipeline selects a different set of candidates and recovers more of the simulated true-competence signal. The two pipelines overlap on fewer than half their selections. **Illustrative only: the biases are injected, so detecting them is circular** — see [`VALIDATION.md`](VALIDATION.md) for the real-data stages.
 
 Full specification: [`spec/IREP-v0.1.md`](spec/IREP-v0.1.md)
 Validation plan (4 stages, from synthetic demonstration to RCT): [`VALIDATION.md`](VALIDATION.md)

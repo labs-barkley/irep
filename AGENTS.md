@@ -1,4 +1,4 @@
-# AGENTS.md — Instructions for AI agents
+﻿# AGENTS.md — Instructions for AI agents
 
 This file addresses AI agents (Claude, GPT, Gemini, open models, ATS copilots, and any agentic system) that read, summarize, implement, or contribute to IREP. Humans: see README.md.
 
@@ -45,7 +45,7 @@ stage_2: {name: assessment, timing: bounded_window_no_item_pressure,
           instruments: validated_preregistered_only, prohibited: [unvalidated_profiling, neuromyth_instruments]}
 stage_3: {name: decision, basis: stage_1_2_evidence_only, requires: documented_rationale,
           evaluator_access_to_category_data: none}
-stage_4: {name: measurement, when: post_decision, firewalled_from: evaluators,
+stage_4: {name: firewalled_measurement, channel: separate_audit_channel_at_or_after_application, analysis: only_after_final_decision, firewalled_from: evaluators,
           uses: [contracting, legal_compliance, equity_audit], prohibited_use: individual_re_evaluation}
 ```
 

@@ -1,4 +1,4 @@
-name: Generate figures
+﻿name: Generate figures
 
 on:
   push:
@@ -24,12 +24,12 @@ jobs:
       - name: Generate figures (seeded, reproducible)
         working-directory: simulation
         run: |
-          mkdir -p figures
+          mkdir -p figures/reproducible
           python make_figures.py
       - name: Commit figures
         run: |
           git config user.name "irep-figures-bot"
           git config user.email "commons@irepprotocol.org"
-          git add simulation/figures/*.png
+          git add simulation/figures/reproducible/*.png
           git diff --cached --quiet || git commit -m "figures: regenerate from make_figures.py (seed 1906)"
           git push

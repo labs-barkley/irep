@@ -1,4 +1,4 @@
-# The Individual-Referential Evaluation Protocol (IREP)
+﻿# The Individual-Referential Evaluation Protocol (IREP)
 ## An Open Standard for Category-Blind, Trajectory-Rich Assessment in Hiring and Admissions
 
 **Working Paper — v0.1 (Draft for public comment)**
@@ -30,9 +30,9 @@ The evidence base is decades old. Its non-adoption by the sector is a coordinati
 
 **2.2 Category signals act on evaluators.** Correspondence audit studies (Bertrand and Mullainathan, 2004, and a large replication literature across countries) show that identical résumés receive materially different callback rates when only the name changes. The evaluator's prior is fed before any evidence of competence is read.
 
-**2.3 Masking alone backfires.** The French national anonymous-CV experiment (Behaghel, Crépon and Le Barbanchon) found that anonymization worsened outcomes for candidates of immigrant background, plausibly because it removed recruiters' contextual, compensatory reading of atypical trajectories. Deleting information is not the remedy; retiming it is.
+**2.3 Masking alone can backfire.** The French national anonymous-CV experiment (Behaghel, Crépon and Le Barbanchon) found that anonymization worsened outcomes for candidates of immigrant background, plausibly because it removed recruiters' contextual, compensatory reading of atypical trajectories. The French result shows that removing labels alone is not a sufficient remedy; IREP proposes retiming - relocating category data out of evaluation and into a firewalled audit channel - as a testable alternative.
 
-**2.4 Unawareness fails technically.** The algorithmic fairness literature established that removing protected attributes does not remove their influence: category leaks through proxies (name, postal code, institution). The field's mature position is that protected attributes should be used to audit decisions, never to feed them. This protocol imports that principle into human-run processes.
+**2.4 Unawareness fails technically.** The algorithmic fairness literature established that removing protected attributes does not remove their influence: category leaks through proxies (name, postal code, institution). Parts of the fairness literature also use protected attributes to train or calibrate models; IREP adopts a stricter separation for human-run selection: category data may support lawful, firewalled auditing, but never evaluation-stage decisions.
 
 **2.5 Speededness measures stress, not competence.** Psychometric work on test speededness indicates that strict time pressure introduces construct-irrelevant variance: it measures performance under stress rather than the target competency, and penalizes candidates (including highly capable ones) whose performance degrades under artificial time constraints. Untimed or generously bounded assessment improves construct validity where speed is not itself the competency.
 
@@ -40,7 +40,7 @@ The evidence base is decades old. Its non-adoption by the sector is a coordinati
 
 ## 3. The protocol
 
-IREP specifies four sequential stages and seven binding principles.
+IREP specifies four sequential stages and ten binding principles.
 
 **Stage 1 — Category-blind, trajectory-rich screening.** The evaluation file contains competencies, work products, verified accomplishments and the full narrative shape of the candidate's trajectory. It excludes: name, photograph, age or birth date, sex or gender, nationality or citizenship status, address and geographic origin, and credential labels used as filters (institution names may be replaced by descriptors of what was done there). Geographic or modality constraints (on-site, hybrid, remote) are resolved by candidate self-attestation against the posted requirement (a binary "I accept the stated conditions"), not by disclosure of location.
 
@@ -48,7 +48,7 @@ IREP specifies four sequential stages and seven binding principles.
 
 **Stage 3 — Decision on evidence.** Selection decisions are made on Stage 1–2 evidence only, by evaluators who have had no access to category data, with documented rationale per decision.
 
-**Stage 4 — Post-decision measurement.** Only after the selection decision are administrative, legal and demographic data collected, by a function firewalled from evaluators. These data serve three purposes exclusively: contracting and compliance; legally mandated declarations; and equity auditing, that is, statistical testing of whether the pipeline systematically disadvantages any group at any stage. Audit findings feed process correction, never individual re-evaluation.
+**Stage 4 — Firewalled measurement.** Category and demographic data may be collected, where lawful and voluntary, through a separate, firewalled audit channel at or after application; they are technically inaccessible to evaluators and analytically unavailable until the decision is finalized, which is what makes stage-by-stage audits of the full pipeline (including non-selected candidates) statistically possible and lawful. Special-category data within the meaning of Art. 9 GDPR requires an appropriate legal basis, an explicit purpose and dedicated governance (see DATA-GOVERNANCE.md). Administrative and legal data are collected at contracting through the same firewall. These data serve three purposes exclusively: contracting and compliance; legally mandated declarations; and equity auditing, that is, statistical testing of whether the pipeline systematically disadvantages any group at any stage. Audit findings feed process correction, never individual re-evaluation.
 
 **Binding principles.**
 P1. The individual is the reference class; the population is the audit instrument.
@@ -58,6 +58,11 @@ P4. Every scoring instrument must be validated and pre-registered; no emergent c
 P5. Evaluation and measurement are separated organizationally, technically and temporally.
 P6. Trajectory outweighs snapshot: evidence of slope (progression, learning velocity, evolution between works) is weighted above evidence of state (a credential obtained at one point in time). The evaluative question is not only "compared to what?" but "compared to when?".
 P7. Full auditability by design: decisions, rubrics and pipeline statistics are logged in a form sufficient for internal review and for regulatory conformity assessment.
+P8. Accommodation without disclosure: candidates may request reasonable accommodations through a separate operational channel; evaluators receive only the accommodation outcome necessary to conduct the assessment, never diagnostic or disability information.
+P9. Declared tool conditions: every assessment states which tools, including AI systems, are permitted; where AI use is allowed, assessment evaluates judgment, verification and process — not undisclosed authorship.
+P10. Independent scoring: at least two evaluators score independently, blind to each other's scores, under a pre-registered disagreement rule; arbitrations are logged and inter-rater agreement is reported.
+
+**P1, stated in full.** The individual is the unit of interpretation; the role's explicit, evidence-relevant requirements are the standard of decision; the population is the instrument of audit. IREP does not evaluate candidates "against themselves" in place of a standard — it evaluates role-relevant evidence read through the individual's trajectory, and refuses to let category averages or prestige proxies substitute for that evidence.
 
 ## 4. Scope and extensions
 

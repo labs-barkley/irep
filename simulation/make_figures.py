@@ -1,4 +1,4 @@
-"""
+﻿"""
 IREP — figure generation. Run after synthetic_demo.py logic (same seed).
 Figures follow the project's figure policy: assumptions stated on-figure,
 synthetic data labeled as illustrative, population baseline shown,
@@ -65,7 +65,7 @@ fig.text(0.5, -0.06,
          "Seed 1906. Script: simulation/make_figures.py",
          ha="center", fontsize=8, style="italic")
 fig.tight_layout()
-fig.savefig("figures/fig1_pipeline_comparison.png", dpi=200, bbox_inches="tight")
+fig.savefig("figures/reproducible/fig1_pipeline_comparison.png", dpi=200, bbox_inches="tight")
 
 # ---------- Figure 2: protocol flow ----------
 fig2, ax = plt.subplots(figsize=(12, 3.4))
@@ -100,5 +100,5 @@ ax.annotate("category data enters HERE — and only here",
             arrowprops=dict(arrowstyle="->", color="#009E73", lw=1.2))
 ax.text(6.0, 3.25, "IREP — the four stages: evaluation first, measurement after",
         ha="center", fontsize=12, fontweight="bold")
-fig2.savefig("figures/fig2_protocol_flow.png", dpi=200, bbox_inches="tight")
+fig2.savefig("figures/reproducible/fig2_protocol_flow.png", dpi=200, bbox_inches="tight")
 print("figures written")

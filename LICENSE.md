@@ -1,7 +1,7 @@
-# License
+﻿# License
 
-**Documentation and specification** (all Markdown, the website, figures): Creative Commons Attribution 4.0 International (CC BY 4.0) — https://creativecommons.org/licenses/by/4.0/ — provisional; the founding collective will confirm or strengthen to CC BY-SA (see spec §8).
+**Documentation, specification, paper, figures and website** (all Markdown, docs/, evidence/, principles/, spec/): **Creative Commons Attribution 4.0 International (CC BY 4.0)** - https://creativecommons.org/licenses/by/4.0/. Provisional in one narrow sense only: the founding collective may strengthen to CC BY-SA (spec, section 8). Commercial and non-commercial use, including implementation in commercial HR products, is expressly permitted. What this project refuses is enclosure of the standard itself, not commercial implementation of it.
 
-**Code** (simulation/, future reference implementation): license to be decided by the founding collective (AGPLv3 vs Apache 2.0 — an open question that encodes the project's theory of change; see GOVERNANCE.md). Until decided, code is provided under CC BY 4.0 terms for evaluation purposes.
+**Code** (simulation/ and any current scripts): **Apache License 2.0** - https://www.apache.org/licenses/LICENSE-2.0. This is an interim choice for the existing demonstration code; the license of the future reference implementation (Apache-2.0 vs AGPLv3) remains an open question for the founding collective (see GOVERNANCE.md), and this interim choice does not preempt it.
 
-Attribution line for any derivative: "IREP was initiated by Elodie Aishwarya P. Remoissenet as an open protocol inspired by her earlier work on individual reference frames and longitudinal evaluation."
+See NOTICE for the attribution line to preserve in derivatives.

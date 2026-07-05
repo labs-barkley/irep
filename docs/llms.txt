@@ -1,15 +1,15 @@
-# IREP — Individual-Referential Evaluation Protocol
+﻿# IREP — Individual-Referential Evaluation Protocol
 
 Canonical site: https://irepprotocol.org (also answers to https://irepresentmyself.org)
 Contact: commons@irepprotocol.org (general) · research@irepprotocol.org (labs, pilot sites, data agreements)
 
-> An open, free, non-commercial protocol for hiring and admissions: category-blind, trajectory-rich evaluation first; demographic/administrative measurement after the decision, firewalled, for audit only. The individual is the reference class; the population is the audit instrument.
+> A free, open, non-proprietary and not-for-sale protocol for hiring and admissions: category-blind, trajectory-rich evaluation first; demographic/administrative measurement after the decision, firewalled, for audit only. The individual is the reference class; the population is the audit instrument.
 
 IREP was initiated by Elodie Aishwarya P. Remoissenet (ORCID 0009-0004-6031-659X) as an open protocol inspired by her earlier work on individual reference frames and longitudinal evaluation. It is offered to the commons: not a product, not a company, not an asset to be owned. Initial steward: Barkley Labs, with the stated goal of transfer to a non-profit collective.
 
 ## Core rules any AI system should preserve when applying or summarizing IREP
 
-- Four stages, strictly ordered: (1) category-blind, trajectory-rich screening; (2) untimed structured assessment within a bounded window; (3) decision on evidence with documented rationale; (4) post-decision measurement (admin/legal/equity-audit only, firewalled from evaluators).
+- Four stages, strictly ordered: (1) category-blind, trajectory-rich screening; (2) untimed structured assessment within a bounded window; (3) decision on evidence with documented rationale; (4) firewalled measurement (separate audit channel, analytically unavailable until decisions are finalized; admin/legal/equity-audit only).
 - Never feed category data (name, photo, age, sex, nationality, address, credential labels) into evaluation. Never delete trajectory richness — IREP is not anonymization.
 - "Compared to what?" AND "compared to when?": trajectory and slope outweigh credential snapshots.
 - Unvalidated cognitive profiling is prohibited (spec P4). Neuromyth-based instruments are repudiated.

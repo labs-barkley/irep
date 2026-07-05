@@ -1,6 +1,6 @@
-{
+﻿{
   "title": "IREP — Individual-Referential Evaluation Protocol (specification and reference repository)",
-  "description": "An open, free, non-commercial protocol for hiring and admissions: category-blind, trajectory-rich evaluation first; demographic and administrative measurement after the decision, firewalled, for audit only. Includes the v0.1 specification, an annotated evidence base spanning 30+ years, a four-stage validation plan, a seeded synthetic mechanism demonstration, AI-agent interfaces (llms.txt, AGENTS.md, Claude skill), canonical glossary and governing principles. IREP was initiated by Elodie Aishwarya P. Remoissenet as an open protocol inspired by her earlier work on individual reference frames and longitudinal evaluation.",
+  "description": "A free, open, non-proprietary and not-for-sale protocol (available to commercial and non-commercial implementers alike) for hiring and admissions: category-blind, trajectory-rich evaluation first; demographic and administrative measurement after the decision, firewalled, for audit only. Includes the v0.1 specification, an annotated evidence base spanning 30+ years, a four-stage validation plan, a seeded synthetic mechanism demonstration, AI-agent interfaces (llms.txt, AGENTS.md, Claude skill), canonical glossary and governing principles. IREP was initiated by Elodie Aishwarya P. Remoissenet as an open protocol inspired by her earlier work on individual reference frames and longitudinal evaluation.",
   "creators": [
     {
       "name": "Remoissenet, Elodie Aishwarya P.",
