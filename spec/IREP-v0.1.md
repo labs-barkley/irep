@@ -4,7 +4,7 @@
 **Working Paper — v0.1 (Draft for public comment)**
 **Barkley Labs**
 **Author:** Elodie Aishwarya P. Remoissenet (ORCID 0009-0004-6031-659X)
-**Paper DOI:** [assigned on Zenodo deposit] — **Repository DOI:** 10.5281/zenodo.21211409 (this release) — 10.5281/zenodo.21211408 (all versions)
+**Paper DOI:** 10.5281/zenodo.21211589 — **Repository DOI:** 10.5281/zenodo.21211409 (this release) — 10.5281/zenodo.21211408 (all versions)
 **License:** Specification text under CC BY 4.0 [or CC BY-SA 4.0 — see §8]. Reference implementation under AGPLv3 [or Apache 2.0 — see §8].
 **Disclosure:** AI tools were used for drafting assistance under the author's full editorial control. The author is solely accountable for the content, sourcing and originality of this work.
 
@@ -12,7 +12,7 @@
 
 ## Abstract
 
-Hiring and admissions systems routinely collect category data (name, photograph, age, sex, geography, credentials) at the stage where it does the most documented damage: before evaluation. Social-psychological research shows that category salience activates stereotype threat in candidates and population priors in evaluators; audit studies show that identical files receive divergent outcomes when only the category signal changes; and the large-scale French anonymous-CV experiment shows that the intuitive remedy, masking, can worsen outcomes by removing evaluators' ability to read atypical trajectories in context. This paper specifies an open protocol that resolves the tension by relocating rather than deleting category data: evaluation is category-blind but trajectory-rich; assessment is untimed within a bounded window; demographic and credential data are collected only after the evaluation decision, firewalled from evaluators, and used exclusively for audit, compliance and administration. The protocol treats the individual, not the population, as the reference class, and the individual's trajectory, not a credential snapshot, as the primary evidence of capability. It is published as a free and open standard, with an open implementation guide and reference materials, so that any organization (employer, school, HR vendor, public service) can adopt or build upon it. Access to employment is treated here as a matter of basic equity, not as a market to be enclosed.
+Hiring and admissions systems routinely collect category data (name, photograph, age, sex, geography, credentials) at the stage where it does the most documented damage: before evaluation. Social-psychological research shows that category salience activates stereotype threat in candidates and population priors in evaluators; audit studies show that identical files receive divergent outcomes when only the category signal changes; and the large-scale French anonymous-CV experiment shows that the intuitive remedy, masking, can worsen outcomes by removing evaluators' ability to read atypical trajectories in context. This paper specifies an open protocol that resolves the tension by relocating rather than deleting category data: evaluation is category-blind but trajectory-rich; assessment is untimed within a bounded window; category and demographic data may be collected, where lawful and voluntary, through a separate firewalled audit channel at or after application; they remain unavailable to evaluators and cannot be accessed, joined or analysed until the decision is final, and are used exclusively for audit, compliance and administration. The protocol treats the individual, not the population, as the reference class, and the individual's trajectory, not a credential snapshot, as the primary evidence of capability. It is published as a free and open standard, with an open implementation guide and reference materials, so that any organization (employer, school, HR vendor, public service) can adopt or build upon it. Access to employment is treated here as a matter of basic equity, not as a market to be enclosed.
 
 ---
 
@@ -66,7 +66,7 @@ P10. Independent scoring: at least two evaluators score independently, blind to 
 
 ## 4. Scope and extensions
 
-The protocol is written for employment selection and is directly transposable to university and program admissions, where credential snapshots and category signals play an analogous filtering role. It is deliberately implementation-agnostic: it can run on paper, on existing ATS platforms reconfigured to comply, or on the reference implementation.
+The protocol is written for employment selection and is directly transposable to university and program admissions, where credential snapshots and category signals play an analogous filtering role. It is deliberately implementation-agnostic: it can run on paper, on existing ATS platforms reconfigured to comply, or through a conformant implementation built against this specification.
 
 ## 5. Regulatory positioning
 

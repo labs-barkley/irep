@@ -15,7 +15,7 @@ IREP is a free, open, implementable protocol for selection processes (employment
 - **Masking alone can backfire** (Behaghel, Crépon & Le Barbanchon: France's anonymous-CV experiment worsened outcomes for the candidates it meant to protect).
 - **Deleting the attribute doesn't delete its influence** (algorithmic fairness: categories leak through proxies).
 
-IREP's answer is not to hide category data but to **relocate it in time**: evaluation is category-blind but trajectory-rich; assessment is untimed within a bounded window; demographic and credential data are collected **after** the decision, firewalled from evaluators, and used exclusively for audit, compliance and administration.
+IREP's answer is not to hide category data but to **relocate it in time**: evaluation is category-blind but trajectory-rich; assessment is untimed within a bounded window; category and demographic data may be collected separately (lawful, voluntary), but cannot be accessed, joined or analysed until the decision is final; they are used exclusively for audit, compliance and administration.
 
 **The individual is the reference class. The population is the audit instrument.** In full: the individual is the unit of interpretation; the role is the standard of decision; the population is the instrument of audit.
 
@@ -26,7 +26,7 @@ IREP's answer is not to hide category data but to **relocate it in time**: evalu
 1. **Category-blind, trajectory-rich screening** — no name, photo, age, sex, nationality, address, or credential labels used as filters; full richness of the candidate's trajectory preserved.
 2. **Untimed structured assessment** — bounded window (e.g., 24h), no per-item time pressure; validated, pre-registered rubrics; no unvalidated "cognitive profiling."
 3. **Decision on evidence** — documented rationale, by evaluators with zero access to category data.
-4. **Post-decision measurement** — administrative and demographic data collected after selection, for contracting, legal declarations, and stage-by-stage equity auditing only.
+4. **Post-decision measurement** — category data may be collected separately (lawful, voluntary), but cannot be accessed, joined or analysed until the decision is final; contracting, legal declarations, and stage-by-stage equity auditing only.
 
 ## What the mechanism looks like (Stage 0 — synthetic demonstration)
 
@@ -41,7 +41,7 @@ Join: [`CALL_FOR_COLLABORATORS.md`](CALL_FOR_COLLABORATORS.md)
 
 ## Status
 
-**v0.1 — draft for public comment.** Repository DOI: [10.5281/zenodo.21211409](https://doi.org/10.5281/zenodo.21211409) (this release) — [10.5281/zenodo.21211408](https://doi.org/10.5281/zenodo.21211408) (all versions). Paper DOI: _pending deposit_.
+**v0.1 — draft for public comment.** Repository DOI: [10.5281/zenodo.21211409](https://doi.org/10.5281/zenodo.21211409) (this release) — [10.5281/zenodo.21211408](https://doi.org/10.5281/zenodo.21211408) (all versions). Paper DOI: [10.5281/zenodo.21211589](https://doi.org/10.5281/zenodo.21211589).
 
 ## What this is not
 
@@ -55,7 +55,7 @@ Anyone. Employers, schools, public services, and yes, commercial HR/ATS vendors 
 
 ## Cite IREP
 
-`CITATION.cff` is in the repo root (GitHub renders a "Cite this repository" button); each release is archived on Zenodo via `.zenodo.json`. Repository DOI: 10.5281/zenodo.21211408 (concept, all versions). Paper DOI: _pending deposit_.
+`CITATION.cff` is in the repo root (GitHub renders a "Cite this repository" button); each release is archived on Zenodo via `.zenodo.json`. Repository DOI: 10.5281/zenodo.21211408 (concept, all versions). Paper DOI: [10.5281/zenodo.21211589](https://doi.org/10.5281/zenodo.21211589).
 
 ## Canonical language
 
@@ -79,7 +79,7 @@ Recruitment AI is a **high-risk** category under the EU AI Act (Annex III). IREP
 
 ## License
 
-Documentation and specification: **CC BY 4.0** (provisional — the founding collective will confirm or strengthen to CC BY-SA; see spec §8). Reference implementation code: license to be decided when code lands (AGPLv3 vs Apache 2.0 — an open question that encodes the project's theory of change).
+Documentation and specification: **CC BY 4.0** (provisional — the founding collective will confirm or strengthen to CC BY-SA; see spec §8). Current demonstration code: Apache-2.0 (interim). The future reference implementation licence remains an open collective question (AGPLv3 vs Apache 2.0 — an open question that encodes the project's theory of change).
 
 ## AI-native by design
 

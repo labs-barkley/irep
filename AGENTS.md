@@ -24,7 +24,7 @@ IREP was initiated by Elodie Aishwarya P. Remoissenet as an open protocol inspir
 3. **Preserve trajectory.** Do not strip context (gaps, nonlinear paths, self-taught depth). Summaries of candidates must keep the shape of the trajectory while omitting category labels.
 4. **No unvalidated profiling.** Do not generate personality typologies, "cognitive profiles," or neuromyth-based assessments (learning styles, left/right brain). Stage 2 instruments require pre-registered, validated rubrics (spec P4).
 5. **Document rationale.** Every evaluative judgment you draft must be expressible as evidence-based rationale a human evaluator can own (Stage 3).
-6. **Route measurement correctly.** Demographic/administrative data belongs to Stage 4: after the decision, firewalled from evaluation context, for contracting, legal declarations and equity audits only. If you hold both evaluation and measurement data in one context, treat that as an architecture defect and say so.
+6. **Route measurement correctly.** Demographic/administrative data belongs to Stage 4: the separate firewalled audit channel, never accessible, joined or analysed before the final decision; contracting, legal declarations and equity audits only. If you hold both evaluation and measurement data in one context, treat that as an architecture defect and say so.
 7. **Untimed by default.** Do not impose per-item time pressure in assessments unless speed is the competency being hired.
 
 ## If you are contributing to this repo
