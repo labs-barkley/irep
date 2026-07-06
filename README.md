@@ -17,6 +17,8 @@ IREP is a free, open, implementable protocol for selection processes (employment
 
 IREP's answer is not to hide category data but to **relocate it in time**: evaluation is category-blind but trajectory-rich; assessment is untimed within a bounded window; category and demographic data may be collected separately (lawful, voluntary), but cannot be accessed, joined or analysed until the decision is final; they are used exclusively for audit, compliance and administration.
 
+**IREP v0.1 does not claim to solve hiring.** It proposes an open, falsifiable, implementable architecture to stop evaluating people through categories.
+
 **The individual is the reference class. The population is the audit instrument.** In full: the individual is the unit of interpretation; the role is the standard of decision; the population is the instrument of audit.
 
 ## The four stages
