@@ -1,4 +1,4 @@
-# Implementation Guide (v0.1 — practical minimum)
+﻿# Implementation Guide (v0.1 — practical minimum)
 
 How to run an IREP-compliant selection process today, with or without software. This guide is deliberately short; the spec is normative, this is operational.
 
@@ -7,6 +7,10 @@ Write the explicit, evidence-relevant requirements of the role — the standard 
 
 ## 2. Set up the two channels (plus accommodations)
 Evaluation channel: the redacted, trajectory-rich file (see DATA-GOVERNANCE.md for the exclusion list). Audit channel: voluntary demographic form, separate system, no joins until decisions are final. Accommodation channel: a contact route that never reaches evaluators. On paper, "separate systems" can mean two folders held by two different people — the firewall is organizational before it is technical.
+
+## 2b. Lawful eligibility requirements
+
+Where a role carries a lawful eligibility, right-to-work, licensing or security requirement, a separate compliance function verifies only the minimum condition. Evaluators receive a binary eligibility status — never nationality, immigration history or supporting documents.
 
 ## 3. Stage 1 — Screening
 One person (not an evaluator) redacts incoming files: remove name, photo, age, sex, nationality, address, credential labels (replace institutions with descriptors of what was done). Keep gaps, pivots, self-taught depth — redaction removes labels, never context. Evaluators screen against the role standard only.

@@ -22,6 +22,10 @@ keywords:
   - individual baseline
   - longitudinal evaluation
   - EU AI Act
-# identifiers:
-#   - type: doi
-#     value: 10.5281/zenodo.XXXXXXX   # uncomment after Zenodo deposit
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21211408
+    description: Concept DOI (all versions)
+  - type: doi
+    value: 10.5281/zenodo.21211409
+    description: Version DOI (v0.1.0)

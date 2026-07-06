@@ -1,5 +1,7 @@
 ﻿# IREP — Individual-Referential Evaluation Protocol
 
+[![DOI](https://zenodo.org/badge/1290343319.svg)](https://doi.org/10.5281/zenodo.21211408)
+
 **An open standard for category-blind, trajectory-rich assessment in hiring and admissions.**
 
 > The right to be evaluated as oneself, and not as one's category, should never have been for sale.
@@ -39,7 +41,7 @@ Join: [`CALL_FOR_COLLABORATORS.md`](CALL_FOR_COLLABORATORS.md)
 
 ## Status
 
-**v0.1 — draft for public comment.** Zenodo DOI: _pending deposit_.
+**v0.1 — draft for public comment.** Repository DOI: [10.5281/zenodo.21211409](https://doi.org/10.5281/zenodo.21211409) (this release) — [10.5281/zenodo.21211408](https://doi.org/10.5281/zenodo.21211408) (all versions). Paper DOI: _pending deposit_.
 
 ## What this is not
 
@@ -53,7 +55,7 @@ Anyone. Employers, schools, public services, and yes, commercial HR/ATS vendors 
 
 ## Cite IREP
 
-`CITATION.cff` is in the repo root (GitHub renders a "Cite this repository" button); a Zenodo DOI is minted per release via `.zenodo.json`. Spec DOI: _pending first deposit_.
+`CITATION.cff` is in the repo root (GitHub renders a "Cite this repository" button); each release is archived on Zenodo via `.zenodo.json`. Repository DOI: 10.5281/zenodo.21211408 (concept, all versions). Paper DOI: _pending deposit_.
 
 ## Canonical language
 
