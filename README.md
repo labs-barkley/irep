@@ -1,6 +1,6 @@
 ﻿# IREP — Individual-Referential Evaluation Protocol
 
-[![DOI](https://zenodo.org/badge/1290343319.svg)](https://doi.org/10.5281/zenodo.21211408)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21211408.svg)](https://doi.org/10.5281/zenodo.21211408)
 
 **An open standard for category-blind, trajectory-rich assessment in hiring and admissions.**
 
