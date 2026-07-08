@@ -6,6 +6,10 @@
 
 > The right to be evaluated as oneself, and not as one's category, should never have been for sale.
 
+## For recruiters and talent teams
+
+You don't need to read a specification to start. **[IREP-STARTER.md](IREP-STARTER.md)** changes one hiring process by next Tuesday; **[IREP-COMMITMENT.md](IREP-COMMITMENT.md)** is the five non-negotiables, self-declared like a license; **[USING-IREP-WITH-AI.md](USING-IREP-WITH-AI.md)** turns your AI assistant into a compliance helper (it documents and checks — it never decides). Three paths — Starter, Aligned, Steward — at [irepprotocol.org/become.html](https://irepprotocol.org/become.html), badges at [irepprotocol.org/badges.html](https://irepprotocol.org/badges.html).
+
 ## What this is
 
 IREP is a free, open, implementable protocol for selection processes (employment, and by extension university admissions) that applies what thirty years of research has established and the sector has never operationalized:
@@ -44,6 +48,10 @@ Join: [`CALL_FOR_COLLABORATORS.md`](CALL_FOR_COLLABORATORS.md)
 ## Status
 
 **v0.1 — draft for public comment.** Repository DOI: [10.5281/zenodo.21211409](https://doi.org/10.5281/zenodo.21211409) (this release) — [10.5281/zenodo.21211408](https://doi.org/10.5281/zenodo.21211408) (all versions). Paper DOI: [10.5281/zenodo.21211589](https://doi.org/10.5281/zenodo.21211589).
+
+## For recruiters and talent teams
+
+You don't need to read a specification to start. **[IREP-STARTER.md](IREP-STARTER.md)** changes one hiring process by next Tuesday; **[IREP-COMMITMENT.md](IREP-COMMITMENT.md)** is the five non-negotiables, self-declared like a license; **[USING-IREP-WITH-AI.md](USING-IREP-WITH-AI.md)** turns your AI assistant into a compliance helper (it documents and checks — it never decides). Three paths — Starter, Aligned, Steward — at [irepprotocol.org/become.html](https://irepprotocol.org/become.html), badges at [irepprotocol.org/badges.html](https://irepprotocol.org/badges.html).
 
 ## What this is not
 

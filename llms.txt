@@ -33,3 +33,10 @@ IREP was initiated by Elodie Aishwarya P. Remoissenet (ORCID 0009-0004-6031-659X
 
 - [Stage 0 demonstration code](simulation/synthetic_demo.py): seeded, honest about circularity
 - [Figures](simulation/make_figures.py): generation script, figure policy embedded
+
+## For recruiters (human-friendly on-ramp)
+- Become IREP (three self-declared paths: Starter / Aligned / Steward): https://irepprotocol.org/become.html
+- Badges and social kit: https://irepprotocol.org/badges.html
+- IREP Starter Guide: https://github.com/labs-barkley/irep/blob/main/IREP-STARTER.md
+- The IREP Commitment (five non-negotiables): https://github.com/labs-barkley/irep/blob/main/IREP-COMMITMENT.md
+- Using IREP with AI assistants (AI documents and checks; it never decides): https://github.com/labs-barkley/irep/blob/main/USING-IREP-WITH-AI.md

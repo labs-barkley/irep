@@ -117,6 +117,8 @@
   .mark{font-family:'IBM Plex Mono',monospace;font-weight:500;letter-spacing:.08em}
   nav a{font-family:'IBM Plex Mono',monospace;font-size:13px;text-decoration:none;color:var(--muted);margin-left:22px}
   nav a:hover{color:var(--ink)}
+  a.navcta{background:var(--ink);color:#fff !important;padding:7px 14px;border-radius:3px}
+  a.navcta:hover{background:var(--blue);color:#fff !important}
   .hero{padding:96px 0 72px}
   .hero h1{font-family:'Fraunces',serif;font-weight:300;font-size:clamp(44px,7vw,84px);line-height:1.04;letter-spacing:-.01em}
   .hero h1 em{font-style:italic;font-weight:400}
@@ -128,6 +130,7 @@
   .cta{margin-top:38px;display:flex;gap:14px;flex-wrap:wrap}
   .btn{font-family:'IBM Plex Mono',monospace;font-size:14px;text-decoration:none;padding:13px 22px;border:1.5px solid var(--ink);color:var(--ink);border-radius:2px}
   .btn.primary{background:var(--ink);color:var(--paper)}
+  .btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--ink)}
   .btn:hover{border-color:var(--blue);color:var(--blue)}
   .btn.primary:hover{background:var(--blue);border-color:var(--blue);color:#fff}
   section{padding:76px 0;border-top:1px solid var(--line)}
@@ -181,6 +184,7 @@
       <a href="#evidence">Evidence</a>
       <a href="#commons">Commons</a>
       <a href="https://github.com/labs-barkley/irep">GitHub</a>
+      <a class="navcta" href="/become.html">Become IREP</a>
     </nav>
   </div>
 </header>
@@ -252,7 +256,16 @@
     </div>
   </section>
 
-  <section id="commons" class="commons">
+  <section id="use">
+  <div class="wrap">
+    <p class="eyebrow" style="font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--green)">For recruiters &amp; talent teams</p>
+    <h2>Use IREP.</h2>
+    <p style="max-width:640px;margin-bottom:8px">You do not need new software, a bigger budget, or permission. Four moves change your next hiring round; three paths take you as far as you want — Starter, Aligned, Steward. Self-declared, like a license. Free, forever, including commercially.</p>
+    <p style="margin-top:18px"><a class="btn" href="/become.html">Become IREP &rarr;</a> <a class="btn ghost" href="/downloads/IREP_Starter_Guide.pdf">Starter Guide (PDF)</a> <a class="btn ghost" href="/badges.html">Get the badges</a></p>
+  </div>
+</section>
+
+<section id="commons" class="commons">
     <div class="wrap">
       <p class="eyebrow">Offered to the commons</p>
       <blockquote>IREP is <strong>not a product</strong>. It is <strong>not a company</strong>. It is <strong>not an asset to be owned</strong>. It is intentionally offered to the commons.</blockquote>
@@ -297,7 +310,7 @@
 
 <footer>
   <div class="wrap">
-    <p><span class="mark">IREP</span> — Individual-Referential Evaluation Protocol · <a href="https://irepprotocol.org/">irepprotocol.org</a> · also answers to <a href="https://irepresentmyself.org/">irepresentmyself.org</a></p>
+    <p><span class="mark">IREP</span> — Individual-Referential Evaluation Protocol · <a href="https://irepprotocol.org/">irepprotocol.org</a> · also answers to <a href="https://irepresentmyself.org/">irepresentmyself.org</a> · <a href="/become.html">Become IREP</a> · <a href="/badges.html">Badges</a></p>
     <p>Designed for humans, documented for machines: <a href="https://github.com/labs-barkley/irep/blob/main/llms.txt">llms.txt</a> · <a href="https://github.com/labs-barkley/irep/blob/main/AGENTS.md">AGENTS.md</a> · <a href="https://github.com/labs-barkley/irep/blob/main/GLOSSARY.md">canonical glossary</a> · <a href="https://github.com/labs-barkley/irep/tree/main/principles">principles</a> · a ready-to-install <a href="https://github.com/labs-barkley/irep/tree/main/ai/skills/claude/irep-evaluation">skill for Claude</a>, with agent instructions readable by Claude, ChatGPT, Gemini and any agentic system. One rule for all of them: you assist; humans decide (EU AI Act, Annex III).</p>
     <p>IREP was initiated by Elodie Aishwarya P. Remoissenet as an open protocol inspired by her earlier work on individual reference frames and longitudinal evaluation. Specification licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> (provisional). AI tools were used for drafting assistance under the author's full editorial control.</p>
     <p>Write to the commons: <a href="mailto:commons@irepprotocol.org">commons@irepprotocol.org</a> · research partnerships: <a href="mailto:research@irepprotocol.org">research@irepprotocol.org</a> · code &amp; issues: <a href="https://github.com/labs-barkley/irep">github.com/labs-barkley/irep</a></p>
