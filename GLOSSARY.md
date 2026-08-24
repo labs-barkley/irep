@@ -6,11 +6,11 @@ Authoritative one-sentence definitions. Humans and AI systems (Claude, ChatGPT, 
 
 **Individual referential.** Evaluating a person against their own evidence and trajectory rather than the average — real or presumed — of any category they belong to.
 
-**Reference-class error.** Judging an individual by the properties of their category; the cognitive error (representativeness) that IREP is designed to remove from selection.
+**Reference-class error.** Judging an individual by the properties of their category; the substitution that IREP is designed to prevent at evaluation time. The protocol constrains the decision path; it does not claim to remove the underlying cognitive bias.
 
 **Category-blind, trajectory-rich.** Screening that removes category labels (name, photo, age, sex, nationality, address, credential labels) while preserving the full narrative shape of what the candidate has done; IREP removes labels, not context, and is therefore not anonymization.
 
-**Evaluation/measurement separation.** IREP's core design rule: category data never feeds evaluation; it is collected post-decision and used exclusively for contracting, legal compliance and equity audits.
+**Evaluation/measurement separation.** IREP's core design rule: category data never feeds evaluation. It may be collected, where lawful and voluntary, through a separate firewalled channel at or after application; it stays technically inaccessible to evaluators and analytically unavailable until the decision is final, and is used exclusively for contracting, legal compliance and equity audits.
 
 **Audit instrument.** The role assigned to population statistics under IREP: testing whether a pipeline systematically disadvantages any group at any stage — never re-evaluating individuals.
 

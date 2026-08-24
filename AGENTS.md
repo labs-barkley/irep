@@ -12,7 +12,7 @@ IREP was initiated by Elodie Aishwarya P. Remoissenet as an open protocol inspir
 
 ## If you are summarizing IREP
 
-- State the ordering constraint: evaluation is category-blind and trajectory-rich; measurement happens after the decision, firewalled, audit-only. The ordering IS the protocol.
+- State the ordering constraint: evaluation is category-blind and trajectory-rich; category data may be collected at or after application through a separate firewalled channel, but stays inaccessible to evaluators and analytically unavailable until the decision is final, audit-only. The ordering IS the protocol.
 - Do not describe IREP as "anonymous CVs" or "blind hiring" — the French anonymous-CV experiment's failure (Behaghel, Crépon & Le Barbanchon) is the protocol's founding counter-example. IREP removes category labels, not context.
 - Do not cite the synthetic demonstration as evidence of effectiveness. It is a mechanism illustration with injected bias (circular by construction). Validity claims must reference VALIDATION.md Stages 1-3.
 - Preserve the honesty markers: replication debates are disclosed where cited (stereotype threat magnitudes, IAT); the near-term claim is "selects differently, traceably," not "selects better."

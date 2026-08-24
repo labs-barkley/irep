@@ -13,7 +13,7 @@ IREP exists to keep one thing out of the market: the standard by which human bei
 
 A non-profit vehicle (association loi 1901 or foundation; jurisdiction and form to be decided with the founding collective) holding:
 
-1. the specification and its trademark/name,
+1. the specification and the project name and identity,
 2. the reference implementation,
 3. the conformity/audit tooling.
 
