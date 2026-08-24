@@ -4,7 +4,7 @@
 
 ## The one rule before any setup
 
-Under IREP, an AI assistant **documents, checks and drafts. It never decides.** It never scores a candidate autonomously, never ranks people, never infers age, origin, gender or any category from a file, and never touches demographic data (that lives in the firewalled audit channel, which your assistant should not even have access to). This is not a style preference: it is rule one of the protocol's agent interface (AGENTS.md), and for AI systems used in EU recruitment it is also what keeps you on the right side of the AI Act.
+Under IREP, an AI assistant **documents, checks and drafts. It never decides.** It never scores a candidate autonomously, never ranks people, never infers age, origin, gender or any category from a file, and never touches demographic data (that lives in the firewalled audit channel, which your assistant should not even have access to). This is not a style preference: it is rule one of the protocol's agent interface (AGENTS.md), and for AI systems used in EU recruitment it is also the posture the AI Act expects of a high-risk use (Annex III; following the Digital Omnibus, the Annex III obligations apply from 2 December 2027, and IREP applies the rule now).
 
 What the assistant is *excellent* for: redaction quality-control (spotting category leaks you missed), drafting rubrics before candidates arrive, checking that every decision has a written rationale, preparing your stage-by-stage audit counts, and answering "is this compliant with the spec?"
 

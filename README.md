@@ -49,9 +49,6 @@ Join: [`CALL_FOR_COLLABORATORS.md`](CALL_FOR_COLLABORATORS.md)
 
 **v0.1 — draft for public comment.** Repository DOI: [10.5281/zenodo.21211409](https://doi.org/10.5281/zenodo.21211409) (this release) — [10.5281/zenodo.21211408](https://doi.org/10.5281/zenodo.21211408) (all versions). Paper DOI: [10.5281/zenodo.21211589](https://doi.org/10.5281/zenodo.21211589).
 
-## For recruiters and talent teams
-
-You don't need to read a specification to start. **[IREP-STARTER.md](IREP-STARTER.md)** changes one hiring process by next Tuesday; **[IREP-COMMITMENT.md](IREP-COMMITMENT.md)** is the five non-negotiables, self-declared like a license; **[USING-IREP-WITH-AI.md](USING-IREP-WITH-AI.md)** turns your AI assistant into a compliance helper (it documents and checks — it never decides). Three paths — Starter, Aligned, Steward — at [irepprotocol.org/become.html](https://irepprotocol.org/become.html), badges at [irepprotocol.org/badges.html](https://irepprotocol.org/badges.html).
 
 ## What this is not
 
@@ -85,7 +82,21 @@ The protocol improves in public, as it preaches. Open questions for v1.0 are lis
 
 ## Regulatory note
 
-Recruitment AI is a **high-risk** category under the EU AI Act (Annex III). IREP is architected so that auditability, validated instruments and evaluation/measurement separation are properties of the design, not afterthoughts. Implementers remain responsible for their own conformity assessment.
+Recruitment AI is classified high-risk under the EU AI Act (Annex III, point 4). Following the Digital Omnibus (in force 27 July 2026), the Annex III obligations apply from 2 December 2027 (2 August 2030 for systems used by public authorities); systems already in use before that date are out of scope unless significantly changed in design. IREP's rule does not depend on that timeline: AI may assist under IREP, humans decide, and implementers remain responsible for determining whether and when the conformity obligations apply to them.
+
+IREP is architected so that auditability, validated instruments and evaluation/measurement separation are properties of the design, not afterthoughts.
+
+## Coverage and citations
+
+Work that references or builds on IREP.
+
+- ["The Monoculture Tax"](https://www.linkedin.com/pulse/monoculture-tax-tyler-style-woevc/), [Tyler Style](https://www.linkedin.com/in/tylerstyle/), August 2026.
+
+## Acknowledgments
+
+IREP improves through external criticism. Contributions listed here are scoped to the specific point raised; inclusion does not imply endorsement of the protocol.
+
+- **Maxime Baelde, Ph.D** ([mbaelde.github.io](https://mbaelde.github.io)) raised the trajectory-field re-identification objection (k-anonymity), now tracked as issue [#2](https://github.com/labs-barkley/irep/issues/2). This acknowledgment is scoped to that objection and does not imply endorsement of the protocol.
 
 ## License
 
@@ -93,7 +104,7 @@ Documentation and specification: **CC BY 4.0** (provisional — the founding col
 
 ## AI-native by design
 
-IREP ships machine-readable from day one, because the protocol will be adopted by AI systems as much as by humans: [`llms.txt`](llms.txt) for LLM discoverability, [`AGENTS.md`](AGENTS.md) with binding instructions for any AI agent summarizing, implementing or contributing to the protocol (including anti-patterns to refuse), and a ready-to-install [Claude skill](ai/skills/claude/irep-evaluation/SKILL.md) that applies IREP in assisted screening workflows. One rule overrides all others for agents: **you assist; humans decide** — recruitment AI is high-risk under the EU AI Act.
+IREP ships machine-readable from day one, because the protocol will be adopted by AI systems as much as by humans: [`llms.txt`](llms.txt) for LLM discoverability, [`AGENTS.md`](AGENTS.md) with binding instructions for any AI agent summarizing, implementing or contributing to the protocol (including anti-patterns to refuse), and a ready-to-install [Claude skill](ai/skills/claude/irep-evaluation/SKILL.md) that applies IREP in assisted screening workflows. One rule overrides all others for agents: **you assist; humans decide** (recruitment AI is classified high-risk under the EU AI Act, Annex III; following the Digital Omnibus the Annex III obligations apply from 2 December 2027, and under IREP the rule holds regardless of that date).
 
 ## Author & provenance
 

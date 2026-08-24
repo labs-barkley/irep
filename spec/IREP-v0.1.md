@@ -70,7 +70,7 @@ The protocol is written for employment selection and is directly transposable to
 
 ## 5. Regulatory positioning
 
-Where an implementation constitutes an AI system intended for recruitment or selection within Annex III of the EU AI Act, it is high-risk. IREP can also be run entirely without AI. Its requirements on validated instruments (P4), separation of functions (P5) and auditability (P7) can support conformity-by-design, but do not themselves establish conformity: implementers remain responsible for determining applicability, completing the relevant risk-management, documentation, human-oversight and monitoring obligations, and demonstrating compliance. The same architecture serves GDPR data-minimization: category data is not collected until it has a lawful, specified purpose.
+Where an implementation constitutes an AI system intended for recruitment or selection within Annex III of the EU AI Act, it is high-risk. (Editorial note added to the repository copy on 24 August 2026, after the v0.1 deposit: following the Digital Omnibus, in force 27 July 2026, the Annex III obligations apply from 2 December 2027, and from 2 August 2030 for systems used by public authorities. The classification is unchanged; only the application date moved. The deposited v0.1 is unmodified.) IREP can also be run entirely without AI. Its requirements on validated instruments (P4), separation of functions (P5) and auditability (P7) can support conformity-by-design, but do not themselves establish conformity: implementers remain responsible for determining applicability, completing the relevant risk-management, documentation, human-oversight and monitoring obligations, and demonstrating compliance. The same architecture serves GDPR data-minimization: category data is not collected until it has a lawful, specified purpose.
 
 ## 6. Limitations and known risks
 
@@ -109,5 +109,5 @@ The research has been available for decades. What has been missing is not eviden
 - Oswald, F. L., Mitchell, G., Blanton, H., Jaccard, J., & Tetlock, P. E. (2013). Predicting ethnic and racial discrimination: A meta-analysis of IAT criterion studies. *Journal of Personality and Social Psychology*, 105(2), 171–192.
 - Pashler, H., McDaniel, M., Rohrer, D., & Bjork, R. (2008). Learning styles: Concepts and evidence. *Psychological Science in the Public Interest*, 9(3), 105–119.
 - The broader annotated evidence base (cognitive mechanisms, foundations, audit-study replications) is maintained at evidence/bibliography.md.
-- Regulation (EU) 2024/1689 (Artificial Intelligence Act), Annex III (high-risk systems: employment).
+- Regulation (EU) 2024/1689 (Artificial Intelligence Act), Annex III, point 4 (high-risk systems: employment), as amended by the Digital Omnibus (in force 27 July 2026; Annex III obligations applicable from 2 December 2027).
 - Remoissenet, E. A. P. (2025–2026). Prior works on reference-class error and individual longitudinal baselines. Zenodo, DOI 10.5281/zenodo.20060327; *The Normative Trap*, DOI 10.5281/zenodo.20516821.

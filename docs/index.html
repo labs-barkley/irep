@@ -4,7 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>IREP — Individual-Referential Evaluation Protocol | Open Standard for Fair Hiring</title>
-<meta name="description" content="IREP (Individual-Referential Evaluation Protocol) is a free, open standard for fair hiring and admissions: category-blind, trajectory-rich evaluation first; demographic measurement after the decision, for audit only. Grounded in 30 years of research on stereotype threat, hiring discrimination and algorithmic fairness. Not a product — a commons.">
+<link rel="alternate" type="application/rss+xml" title="IREP Protocol" href="/feed.xml">
+<meta name="description" content="IREP (Individual-Referential Evaluation Protocol) is a free, open standard for fair hiring and admissions: category-blind, trajectory-rich evaluation first; category data flows only through a separate firewalled audit channel, analytically unavailable until decisions are finalized, for audit only. The individual is the reference class; the population is the audit instrument. Grounded in 30 years of research on stereotype threat, hiring discrimination and algorithmic fairness. Not a product, a commons.">
 <meta name="keywords" content="IREP, Individual-Referential Evaluation Protocol, fair hiring, open standard, hiring bias, recruitment discrimination, skills-based hiring, blind hiring alternative, anonymous CV, stereotype threat, algorithmic fairness, EU AI Act recruitment, individual baseline, longitudinal evaluation, equity audit, open source hiring protocol, Elodie Aishwarya P. Remoissenet">
 <link rel="canonical" href="https://irepprotocol.org/">
 <meta name="robots" content="index, follow, max-image-preview:large">
@@ -37,9 +38,9 @@
       "url": "https://irepprotocol.org/",
       "name": "IREP — Individual-Referential Evaluation Protocol",
       "alternateName": ["IREP", "I represent myself"],
-      "description": "An open, free, non-commercial protocol for hiring and admissions: category-blind, trajectory-rich evaluation first; demographic measurement after the decision, firewalled, for audit only.",
+      "description": "A free, open, non-proprietary and not-for-sale protocol for hiring and admissions: category-blind, trajectory-rich evaluation first; category data flows only through a separate firewalled audit channel, analytically unavailable until decisions are finalized, for audit only. The individual is the reference class; the population is the audit instrument.",
       "inLanguage": "en",
-      "publisher": {"@id": "https://irepprotocol.org/#steward"}
+      "publisher": {"@id": "https://irepprotocol.org/#commons"}
     },
     {
       "@type": "Person",
@@ -48,27 +49,31 @@
       "sameAs": [
         "https://orcid.org/0009-0004-6031-659X",
         "https://barkleylabs.ai/#elodie",
-        "https://github.com/labs-barkley",
-        "https://www.linkedin.com/in/elodieremoissenet"
+        "https://getbarkley.com/#elodie",
+        "https://actamusic.org/#elodie",
+        "https://www.linkedin.com/in/elodie-aishwarya-p-r-94a833145/"
       ],
-      "jobTitle": "Founder, Barkley Labs; initiator and initial steward of IREP",
+      "jobTitle": ["Founder, Barkley Labs", "AI Researcher", "Initiator and initial steward of IREP"],
       "description": "IREP was initiated by Elodie Aishwarya P. Remoissenet as an open protocol inspired by her earlier work on individual reference frames and longitudinal evaluation.",
       "knowsAbout": ["individual reference frames", "longitudinal evaluation", "algorithmic fairness", "behavioral intelligence", "customer experience operations"]
     },
     {
       "@type": "Organization",
-      "@id": "https://irepprotocol.org/#steward",
-      "name": "IREP Commons (initial steward: Barkley Labs)",
+      "@id": "https://irepprotocol.org/#commons",
+      "name": "IREP Commons",
       "url": "https://irepprotocol.org/",
       "email": "commons@irepprotocol.org",
       "nonprofitStatus": "Nonprofit (collective vehicle in formation)",
       "founder": {"@id": "https://irepprotocol.org/#initiator"},
-      "parentOrganization": {
-        "@type": "Organization",
-        "@id": "https://barkleylabs.ai/#organization",
-        "name": "Barkley Labs",
-        "url": "https://barkleylabs.ai/"
-      }
+      "sponsor": {"@id": "https://barkleylabs.ai/#organization"}
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://barkleylabs.ai/#organization",
+      "name": "Barkley Labs",
+      "url": "https://barkleylabs.ai/",
+      "description": "The systems lab for individual intelligence; initial steward of the IREP Protocol.",
+      "sameAs": ["https://github.com/labs-barkley"]
     },
     {
       "@type": "ScholarlyArticle",
@@ -79,15 +84,40 @@
       "license": "https://creativecommons.org/licenses/by/4.0/",
       "url": "https://github.com/labs-barkley/irep/blob/main/spec/IREP-v0.1.md",
       "isPartOf": {"@id": "https://irepprotocol.org/#website"},
-      "about": ["hiring discrimination", "stereotype threat", "algorithmic fairness", "equity auditing", "selection methods"]
+      "about": ["hiring discrimination", "stereotype threat", "algorithmic fairness", "equity auditing", "selection methods"],
+      "subjectOf": {"@id": "https://irepprotocol.org/#commentary-monoculture-tax"}
+    },
+    {
+      "@type": "Article",
+      "@id": "https://irepprotocol.org/#commentary-monoculture-tax",
+      "headline": "The Monoculture Tax",
+      "url": "https://www.linkedin.com/pulse/monoculture-tax-tyler-style-woevc/",
+      "datePublished": "2026-08-07",
+      "author": {
+        "@type": "Person",
+        "name": "Tyler Style",
+        "url": "https://www.linkedin.com/in/tylerstyle/",
+        "jobTitle": "Solutions architect and engineering leader"
+      },
+      "publisher": {"@type": "Organization", "name": "LinkedIn"},
+      "mentions": {"@id": "https://irepprotocol.org/#spec"}
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "@id": "https://actamusic.org/#software",
+      "name": "ACTA Music",
+      "url": "https://actamusic.org/",
+      "description": "Sister protocol from Barkley Labs: artist-held provenance for music composition, where authorship attests at the gesture, not the file.",
+      "publisher": {"@id": "https://barkleylabs.ai/#organization"}
     },
     {
       "@type": "SoftwareSourceCode",
       "@id": "https://irepprotocol.org/#repo",
       "name": "IREP reference repository",
+      "description": "Documentation and specification CC BY 4.0; demonstration code Apache-2.0 (interim).",
       "codeRepository": "https://github.com/labs-barkley/irep",
       "programmingLanguage": "Python",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "license": ["https://creativecommons.org/licenses/by/4.0/", "https://www.apache.org/licenses/LICENSE-2.0"],
       "author": {"@id": "https://irepprotocol.org/#initiator"},
       "isAccessibleForFree": true,
       "description": "Specification, annotated evidence base (30+ years), validation plan, synthetic mechanism demonstration, AI-agent interfaces (llms.txt, AGENTS.md, Claude skill) and canonical glossary."
@@ -291,6 +321,15 @@
     </div>
   </section>
 
+  <section id="perspectives">
+    <div class="wrap">
+      <p class="eyebrow">In the field</p>
+      <h2>Independent perspectives.</h2>
+      <p class="lede" style="max-width:680px">Third-party writing about IREP is listed as received. It is commentary, never validation evidence, and listing is not an endorsement in either direction.</p>
+      <p style="max-width:680px;margin-top:18px"><strong><a href="https://www.linkedin.com/pulse/monoculture-tax-tyler-style-woevc/">&ldquo;The Monoculture Tax&rdquo;</a></strong> &middot; <a href="https://www.linkedin.com/in/tylerstyle/">Tyler Style</a>, solutions architect and engineering leader, Vancouver, WA. LinkedIn, 7 August 2026. A practitioner essay on how workplace culture drifts toward monoculture through hiring and promotion. He reviewed the IREP instrument at the initiator's request, notes that it is early (v0.1, not yet validated), and writes that it &ldquo;evaluates each person against their own evidence and trajectory&rdquo;. He then sketches carrying IREP's rubric structure into promotion, an extension beyond v0.1's stated scope of hiring and admissions.</p>
+    </div>
+  </section>
+
   <section id="circles">
     <div class="wrap">
       <p class="eyebrow">Three circles</p>
@@ -321,9 +360,10 @@
 </main>
 
 <footer>
+  <p style="opacity:.75">Sister protocol: <a href="https://actamusic.org">ACTA Music</a>, artist-held provenance for music composition. Both are systems of <a href="https://barkleylabs.ai">Barkley Labs</a>.</p>
   <div class="wrap">
     <p><span class="mark">IREP</span> — Individual-Referential Evaluation Protocol · <a href="https://irepprotocol.org/">irepprotocol.org</a> · also answers to <a href="https://irepresentmyself.org/">irepresentmyself.org</a></p>
-    <p>Designed for humans, documented for machines: <a href="https://github.com/labs-barkley/irep/blob/main/llms.txt">llms.txt</a> · <a href="https://github.com/labs-barkley/irep/blob/main/AGENTS.md">AGENTS.md</a> · <a href="https://github.com/labs-barkley/irep/blob/main/GLOSSARY.md">canonical glossary</a> · <a href="https://github.com/labs-barkley/irep/tree/main/principles">principles</a> · a ready-to-install <a href="https://github.com/labs-barkley/irep/tree/main/ai/skills/claude/irep-evaluation">skill for Claude</a>, with agent instructions readable by Claude, ChatGPT, Gemini and any agentic system. One rule for all of them: you assist; humans decide (EU AI Act, Annex III).</p>
+    <p>Designed for humans, documented for machines: <a href="https://github.com/labs-barkley/irep/blob/main/llms.txt">llms.txt</a> · <a href="https://github.com/labs-barkley/irep/blob/main/AGENTS.md">AGENTS.md</a> · <a href="https://github.com/labs-barkley/irep/blob/main/GLOSSARY.md">canonical glossary</a> · <a href="https://github.com/labs-barkley/irep/tree/main/principles">principles</a> · a ready-to-install <a href="https://github.com/labs-barkley/irep/tree/main/ai/skills/claude/irep-evaluation">skill for Claude</a>, with agent instructions readable by Claude, ChatGPT, Gemini and any agentic system. One rule for all of them: you assist; humans decide. Recruitment AI is classified high-risk under the EU AI Act (Annex III, point 4); following the Digital Omnibus, the Annex III obligations apply from 2 December 2027. IREP's rule does not wait for that date.</p>
     <p>IREP was initiated by Elodie Aishwarya P. Remoissenet as an open protocol inspired by her earlier work on individual reference frames and longitudinal evaluation. Specification licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> (provisional). AI tools were used for drafting assistance under the author's full editorial control.</p>
     <p>Write to the commons: <a href="mailto:commons@irepprotocol.org">commons@irepprotocol.org</a> · research partnerships: <a href="mailto:research@irepprotocol.org">research@irepprotocol.org</a> · code &amp; issues: <a href="https://github.com/labs-barkley/irep">github.com/labs-barkley/irep</a></p>
     <p>For recruiters &amp; talent teams: <a href="/become.html">Become IREP</a> (Starter — Aligned — Steward) · <a href="/downloads/IREP_Starter_Guide.pdf">Starter Guide</a> · <a href="/downloads/IREP_Commitment.pdf">The Commitment</a> · <a href="/badges.html">badges &amp; sharing</a> · <a href="/downloads/IREP_with_AI.pdf">IREP with AI assistants</a></p>

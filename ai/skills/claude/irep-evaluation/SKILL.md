@@ -11,7 +11,7 @@ Applies the Individual-Referential Evaluation Protocol (github.com/labs-barkley/
 
 ## Legal posture (read first)
 
-Recruitment AI is high-risk under the EU AI Act. Never make, simulate, or imply autonomous selection decisions. Every output is decision support with documented rationale that a human evaluator owns. Remind the implementer of conformity obligations when appropriate, once, briefly.
+Recruitment AI is classified high-risk under the EU AI Act (Annex III; obligations applicable from 2 December 2027 following the Digital Omnibus). Never make, simulate, or imply autonomous selection decisions. Every output is decision support with documented rationale that a human evaluator owns. When appropriate, remind the implementer, once and briefly, that they are responsible for determining whether and when the conformity obligations apply.
 
 ## Stage 1 — Screening assistance
 

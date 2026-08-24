@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>IREP Protocol</title>
+  <link>https://irepprotocol.org/</link>
+  <atom:link href="https://irepprotocol.org/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>The Individual-Referential Evaluation Protocol: an open standard for category-blind, trajectory-rich assessment in hiring and admissions. A commons, stewarded by Barkley Labs.</description>
+  <language>en</language>
+  <lastBuildDate>Mon, 24 Aug 2026 00:00:00 GMT</lastBuildDate>
+  <item>
+    <title>EU AI Act wording aligned with the Digital Omnibus</title>
+    <link>https://github.com/labs-barkley/irep/blob/main/CHANGELOG.md</link>
+    <guid isPermaLink="false">irep-0.1.2-ai-act</guid>
+    <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+    <description>Annex III classification is unchanged; the obligations now apply from 2 December 2027. IREP's rule does not depend on that timeline: AI may assist, humans decide.</description>
+  </item>
+  <item>
+    <title>Become IREP: the recruiter on-ramp</title>
+    <link>https://irepprotocol.org/become.html</link>
+    <guid isPermaLink="false">irep-become</guid>
+    <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+    <description>Three self-declared paths, Starter, Aligned and Steward, with a starter guide and a badge kit. No certifier, no fee.</description>
+  </item>
+  <item>
+    <title>IREP v0.1, draft for public comment</title>
+    <link>https://doi.org/10.5281/zenodo.21211589</link>
+    <guid isPermaLink="false">doi:10.5281/zenodo.21211589</guid>
+    <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+    <description>The specification, its evidence base and a runnable Stage 0 demonstration. Specification CC BY 4.0, demonstration code Apache-2.0.</description>
+  </item>
+</channel>
+</rss>

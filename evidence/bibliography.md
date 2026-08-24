@@ -68,8 +68,14 @@ The protocol's scientific foundation, spanning 30+ years. Contributions welcome:
 ## Regulatory
 
 - **Regulation (EU) 2024/1689** (Artificial Intelligence Act), Annex III — recruitment and selection systems classified high-risk; obligations of risk management, data governance, documentation, human oversight, post-market monitoring.
+
+  *Timeline note (as of August 2026).* Following the Digital Omnibus, in force 27 July 2026, the Annex III obligations apply from 2 December 2027, and from 2 August 2030 for systems used by public authorities; systems already in use before that date are out of scope unless significantly changed in design. The classification is unchanged; only the application date moved.
 - **Regulation (EU) 2016/679** (GDPR), Art. 5(1)(c) — data minimization; grounds post-decision collection (Stage 4).
 
 ---
 
 *Sourcing policy: bibliography maintained via OpenAlex / Semantic Scholar identifiers; replication data referenced from journals' public appendices and OSF. No scraped or paywalled redistribution — links and DOIs only.*
+
+## Practitioner commentary (context only; outside the sourcing policy above; grounds no principle; never cited as evidence)
+
+- Tyler Style, "The Monoculture Tax", LinkedIn, 7 August 2026. https://www.linkedin.com/pulse/monoculture-tax-tyler-style-woevc/ A practitioner essay on monoculture in hiring and promotion that references IREP. Listed as commentary; it extends the rubric idea to promotion, which is beyond IREP v0.1's stated scope of hiring and admissions.
