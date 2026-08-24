@@ -73,11 +73,11 @@ Definitions live in [`GLOSSARY.md`](GLOSSARY.md) — humans and AI systems shoul
 
 ## Contact
 
-Write to the commons: **commons@irepprotocol.org** · research partnerships & data agreements: **research@irepprotocol.org** · everything else: [issues](https://github.com/labs-barkley/irep/issues). Site: [irepprotocol.org](https://irepprotocol.org).
+Write to the commons: **commons@irepprotocol.org** · research partnerships & data agreements: **research@irepprotocol.org** · everything else: [issues](https://github.com/labs-barkley/irep/issues). Site: [irepprotocol.org](https://irepprotocol.org) · initial steward: [Barkley Labs](https://barkleylabs.ai).
 
 ## Governance
 
-Stewarded initially by [Barkley Labs](https://github.com/labs-barkley), with the explicit goal of transferring to a non-profit collective vehicle (association or foundation). Sustainability model: grants, foundations, public digital-commons funding, donations. See [`GOVERNANCE.md`](GOVERNANCE.md).
+Stewarded initially by [Barkley Labs](https://barkleylabs.ai) — the systems lab for individual intelligence, where IREP is the evaluation system — with the explicit goal of transferring to a non-profit collective vehicle (association or foundation). Sustainability model: grants, foundations, public digital-commons funding, donations. See [`GOVERNANCE.md`](GOVERNANCE.md).
 
 ## Contributing
 
