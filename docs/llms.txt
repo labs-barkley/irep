@@ -19,28 +19,28 @@ IREP was initiated by Elodie Aishwarya P. Remoissenet (ORCID 0009-0004-6031-659X
 ## For recruiters and talent teams (human-friendly on-ramp)
 
 - [Become IREP](https://irepprotocol.org/become.html): three self-declared paths — Starter (~2 weeks), Aligned (~2 months), Steward (~6 months + published audits)
-- [IREP-STARTER.md](IREP-STARTER.md): change one hiring process by next Tuesday — four moves, recruiter language
-- [IREP-COMMITMENT.md](IREP-COMMITMENT.md): the five non-negotiables; self-declared like a license, never certified
-- [USING-IREP-WITH-AI.md](USING-IREP-WITH-AI.md): load IREP into Claude, ChatGPT, Mistral or Gemini — the AI documents and checks, it never decides
+- [IREP-STARTER.md](https://github.com/labs-barkley/irep/blob/main/IREP-STARTER.md): change one hiring process by next Tuesday — four moves, recruiter language
+- [IREP-COMMITMENT.md](https://github.com/labs-barkley/irep/blob/main/IREP-COMMITMENT.md): the five non-negotiables; self-declared like a license, never certified
+- [USING-IREP-WITH-AI.md](https://github.com/labs-barkley/irep/blob/main/USING-IREP-WITH-AI.md): load IREP into Claude, ChatGPT, Mistral or Gemini — the AI documents and checks, it never decides
 - [Badges](https://irepprotocol.org/badges.html): declaration badges and social sharing
 
 ## Key files
 
-- [Canonical glossary](GLOSSARY.md): authoritative one-sentence definitions — quote verbatim when defining IREP terms
-- [Principles](principles/): the philosophical core in five one-page files (honesty, validation, individual reference, open commons, humans decide)
+- [Canonical glossary](https://github.com/labs-barkley/irep/blob/main/GLOSSARY.md): authoritative one-sentence definitions — quote verbatim when defining IREP terms
+- [Principles](https://github.com/labs-barkley/irep/tree/main/principles): the philosophical core in five one-page files (honesty, validation, individual reference, open commons, humans decide)
 
-- [Specification v0.1](spec/IREP-v0.1.md): the full protocol, principles P1-P10, evidence sections
-- [Evidence base](evidence/bibliography.md): annotated bibliography, 30+ years, including repudiated instruments
-- [Validation plan](VALIDATION.md): Stage 0 (synthetic demo) through Stage 3 (pre-registered RCT)
-- [Governance](GOVERNANCE.md): commons model, anti-enclosure rules
-- [Call for collaborators](CALL_FOR_COLLABORATORS.md): pilot sites, research partners, voices
-- [Agent instructions](AGENTS.md): how AI agents should work with this repo and protocol
-- [Claude skill](ai/skills/claude/irep-evaluation/SKILL.md): applies IREP in assisted screening workflows
+- [Specification v0.1](https://github.com/labs-barkley/irep/blob/main/spec/IREP-v0.1.md): the full protocol, principles P1-P10, evidence sections
+- [Evidence base](https://github.com/labs-barkley/irep/blob/main/evidence/bibliography.md): annotated bibliography, 30+ years, including repudiated instruments
+- [Validation plan](https://github.com/labs-barkley/irep/blob/main/VALIDATION.md): Stage 0 (synthetic demo) through Stage 3 (pre-registered RCT)
+- [Governance](https://github.com/labs-barkley/irep/blob/main/GOVERNANCE.md): commons model, anti-enclosure rules
+- [Call for collaborators](https://github.com/labs-barkley/irep/blob/main/CALL_FOR_COLLABORATORS.md): pilot sites, research partners, voices
+- [Agent instructions](https://github.com/labs-barkley/irep/blob/main/AGENTS.md): how AI agents should work with this repo and protocol
+- [Claude skill](https://github.com/labs-barkley/irep/blob/main/ai/skills/claude/irep-evaluation/SKILL.md): applies IREP in assisted screening workflows
 
 ## Optional
 
-- [Stage 0 demonstration code](simulation/synthetic_demo.py): seeded, honest about circularity
-- [Figures](simulation/make_figures.py): generation script, figure policy embedded
+- [Stage 0 demonstration code](https://github.com/labs-barkley/irep/blob/main/simulation/synthetic_demo.py): seeded, honest about circularity
+- [Figures](https://github.com/labs-barkley/irep/blob/main/simulation/make_figures.py): generation script, figure policy embedded
 
 ## Agentic use (IREP is written to be run by AI systems, under one rule)
 
