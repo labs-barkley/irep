@@ -76,8 +76,27 @@
       "sameAs": ["https://github.com/labs-barkley"]
     },
     {
+      "@type": "Legislation",
+      "@id": "https://irepprotocol.org/#eu-ai-act",
+      "name": "Regulation (EU) 2024/1689 (Artificial Intelligence Act), consolidated text",
+      "legislationIdentifier": "CELEX:02024R1689-20260727",
+      "legislationJurisdiction": "European Union",
+      "legislationDateVersion": "2026-07-27",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02024R1689-20260727"
+    },
+    {
+      "@type": "Legislation",
+      "@id": "https://irepprotocol.org/#ai-omnibus-2026",
+      "name": "Digital Omnibus on artificial intelligence (2026), amending Regulation (EU) 2024/1689",
+      "legislationJurisdiction": "European Union",
+      "legislationDate": "2026-07-27",
+      "legislationAmends": {"@id": "https://irepprotocol.org/#eu-ai-act"},
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+    },
+    {
       "@type": "ScholarlyArticle",
       "@id": "https://irepprotocol.org/#spec",
+      "mentions": [{"@id": "https://irepprotocol.org/#eu-ai-act"}, {"@id": "https://irepprotocol.org/#ai-omnibus-2026"}],
       "headline": "The Individual-Referential Evaluation Protocol (IREP): An Open Standard for Category-Blind, Trajectory-Rich Assessment in Hiring and Admissions",
       "author": {"@id": "https://irepprotocol.org/#initiator"},
       "version": "0.1",
@@ -129,7 +148,7 @@
       "url": "https://github.com/labs-barkley/irep/blob/main/GLOSSARY.md",
       "hasDefinedTerm": [
         {"@type": "DefinedTerm", "name": "Individual referential", "description": "Evaluating a person against their own evidence and trajectory rather than the average of any category they belong to. The individual is the reference class; the population is the audit instrument."},
-        {"@type": "DefinedTerm", "name": "Evaluation/measurement separation", "description": "IREP's core design rule: category and demographic data are collected only after the selection decision, firewalled from evaluators, and used exclusively for contracting, compliance and equity audits."},
+        {"@type": "DefinedTerm", "name": "Evaluation/measurement separation", "description": "IREP's core design rule: category and demographic data may flow only through a separate firewalled channel, remain inaccessible to evaluators and analytically unavailable until the selection decision is final, and are used only for lawful administrative, compliance and equity-audit purposes."},
         {"@type": "DefinedTerm", "name": "Category-blind, trajectory-rich", "description": "Screening that removes category labels (name, photo, age, sex, nationality, credential labels) while preserving the full narrative shape of what the candidate has done. IREP is not anonymization: it removes labels, not context."},
         {"@type": "DefinedTerm", "name": "Compared to when", "description": "The temporal twin of 'compared to what': trajectory and slope outweigh credential snapshots. A degree records one moment; a person is a trajectory."}
       ]
@@ -200,11 +219,25 @@
   .btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--ink)}
   .navcta{background:var(--ink);color:#fff !important;padding:8px 14px;border-radius:3px}
   .navcta:hover{background:var(--blue)}
+  .regband{margin-top:44px;padding:22px 26px;border:1px solid var(--line);border-left:3px solid var(--green);background:var(--wash);max-width:760px}
+  .regband .eyebrow{margin-bottom:10px;color:var(--green)}
+  .regband p{font-size:15px;color:var(--ink);margin:0}
+  .regband p+p{margin-top:10px}
+  .regband .src{font-size:12.5px;color:var(--muted)}
+  .regband strong{font-weight:600}
+  .foot-cols{margin:34px 0 30px;display:grid;grid-template-columns:repeat(5,1fr);gap:26px;max-width:1000px}
+  .foot-cols h3{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);font-weight:500;margin-bottom:12px}
+  .foot-cols ul{list-style:none}
+  .foot-cols li{margin-bottom:7px;font-size:13px;line-height:1.5}
+  .foot-cols a{color:var(--muted);text-decoration:none;border-bottom:1px solid transparent}
+  .foot-cols a:hover{color:var(--blue);border-bottom-color:var(--blue)}
   footer{padding:56px 0 72px;border-top:1px solid var(--line)}
   footer p{font-size:13.5px;color:var(--muted);max-width:720px}
   footer p+p{margin-top:10px}
   footer .mark{color:var(--ink)}
   @media(max-width:820px){
+    .foot-cols{grid-template-columns:1fr 1fr}
+    .regband{padding:18px 20px}
     .findings,.rail,.circles{grid-template-columns:1fr}
     .hero{padding:64px 0 52px}
     section{padding:56px 0}
@@ -233,11 +266,17 @@
     <p class="redactions" aria-label="A form with category fields struck out and trajectory kept">
       <s>name</s> · <s>photo</s> · <s>age</s> · <s>sex</s> · <s>nationality</s> · <s>address</s> · <s>highest degree</s> · <span class="keep">what I have actually done, and how I got here</span>
     </p>
-    <p class="lede">IREP is an open protocol for hiring and admissions. It evaluates the person — evidence, work, trajectory — and moves every category label to where it belongs: after the decision, in the audit.</p>
+    <p class="lede">IREP is an open protocol for hiring and admissions. It evaluates the person — evidence, work, trajectory — while category labels stay out of evaluation, inside a separate firewalled audit channel, unavailable until the decision is final.</p>
     <div class="cta">
       <a class="btn primary" href="https://github.com/labs-barkley/irep">Read the spec</a>
       <a class="btn" href="#use">For HR &amp; talent teams →</a>
       <a class="btn" href="#circles">Join the collective</a>
+    </div>
+
+    <div class="regband">
+      <p class="eyebrow">EU AI Act · Annex III, point 4</p>
+      <p>AI systems used to recruit, screen applications or evaluate candidates are listed among the Annex III high-risk use cases. Under the 2026 Digital Omnibus, the corresponding Chapter III obligations apply from <strong>2 December 2027</strong>. <strong>IREP's rule does not wait for that date:</strong> AI may assist; humans decide.</p>
+      <p class="src">Official sources: <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02024R1689-20260727">AI Act, consolidated text</a> · <a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai">European Commission implementation timeline</a>. Whether a given system is high-risk also depends on Article 6(3); implementers remain responsible for their own assessment.</p>
     </div>
   </div>
 
@@ -360,13 +399,62 @@
 </main>
 
 <footer>
-  <p style="opacity:.75">Sister protocol: <a href="https://actamusic.org">ACTA Music</a>, artist-held provenance for music composition. Both are systems of <a href="https://barkleylabs.ai">Barkley Labs</a>.</p>
   <div class="wrap">
     <p><span class="mark">IREP</span> — Individual-Referential Evaluation Protocol · <a href="https://irepprotocol.org/">irepprotocol.org</a> · also answers to <a href="https://irepresentmyself.org/">irepresentmyself.org</a></p>
-    <p>Designed for humans, documented for machines: <a href="https://github.com/labs-barkley/irep/blob/main/llms.txt">llms.txt</a> · <a href="https://github.com/labs-barkley/irep/blob/main/AGENTS.md">AGENTS.md</a> · <a href="https://github.com/labs-barkley/irep/blob/main/GLOSSARY.md">canonical glossary</a> · <a href="https://github.com/labs-barkley/irep/tree/main/principles">principles</a> · a ready-to-install <a href="https://github.com/labs-barkley/irep/tree/main/ai/skills/claude/irep-evaluation">skill for Claude</a>, with agent instructions readable by Claude, ChatGPT, Gemini and any agentic system. One rule for all of them: you assist; humans decide. Recruitment AI is classified high-risk under the EU AI Act (Annex III, point 4); following the Digital Omnibus, the Annex III obligations apply from 2 December 2027. IREP's rule does not wait for that date.</p>
+    <div class="foot-cols">
+      <div>
+        <h3>Adopt</h3>
+        <ul>
+          <li><a href="/become.html">Become IREP</a></li>
+          <li><a href="/downloads/IREP_Starter_Guide.pdf">Starter Guide (PDF)</a></li>
+          <li><a href="/downloads/IREP_Commitment.pdf">The Commitment (PDF)</a></li>
+          <li><a href="/badges.html">Badges &amp; sharing</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Agentic</h3>
+        <ul>
+          <li><a href="/downloads/IREP_with_AI.pdf">IREP with AI assistants (PDF)</a></li>
+          <li><a href="https://github.com/labs-barkley/irep/blob/main/AGENTS.md">AGENTS.md</a></li>
+          <li><a href="https://github.com/labs-barkley/irep/tree/main/ai/skills/claude/irep-evaluation">Skill for Claude</a></li>
+          <li><a href="https://github.com/labs-barkley/irep/blob/main/llms.txt">llms.txt</a></li>
+          <li><a href="https://github.com/labs-barkley/irep/blob/main/GLOSSARY.md">Canonical glossary</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>News &amp; regulation</h3>
+        <ul>
+          <li><a href="/feed.xml">Research feed (RSS)</a></li>
+          <li><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02024R1689-20260727">EU AI Act, consolidated</a></li>
+          <li><a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai">Commission timeline</a></li>
+          <li><a href="https://github.com/labs-barkley/irep/blob/main/CHANGELOG.md">Changelog</a></li>
+          <li><a href="#perspectives">Independent perspectives</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Research</h3>
+        <ul>
+          <li><a href="https://doi.org/10.5281/zenodo.21211589">Working paper (DOI)</a></li>
+          <li><a href="https://github.com/labs-barkley/irep/blob/main/spec/IREP-v0.1.md">Specification v0.1</a></li>
+          <li><a href="https://github.com/labs-barkley/irep/blob/main/evidence/bibliography.md">Evidence base</a></li>
+          <li><a href="https://github.com/labs-barkley/irep/blob/main/VALIDATION.md">Validation plan</a></li>
+          <li><a href="https://github.com/labs-barkley/irep">github.com/labs-barkley/irep</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Barkley Labs</h3>
+        <ul>
+          <li><a href="https://barkleylabs.ai">barkleylabs.ai</a></li>
+          <li><a href="https://actamusic.org">ACTA Music</a>, sister protocol</li>
+          <li><a href="https://getbarkley.com">Barkley AI</a></li>
+          <li><a href="/sitemap.xml">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+    <p>Designed for humans, documented for machines. One rule for every agent: you assist; humans decide. AI systems used for recruitment or selection are listed among the EU AI Act's Annex III high-risk use cases (point 4). Following the Digital Omnibus, the Annex III obligations apply from 2 December 2027. IREP's rule does not wait for that date.</p>
     <p>IREP was initiated by Elodie Aishwarya P. Remoissenet as an open protocol inspired by her earlier work on individual reference frames and longitudinal evaluation. Specification licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> (provisional). AI tools were used for drafting assistance under the author's full editorial control.</p>
     <p>Write to the commons: <a href="mailto:commons@irepprotocol.org">commons@irepprotocol.org</a> · research partnerships: <a href="mailto:research@irepprotocol.org">research@irepprotocol.org</a> · code &amp; issues: <a href="https://github.com/labs-barkley/irep">github.com/labs-barkley/irep</a></p>
-    <p>For recruiters &amp; talent teams: <a href="/become.html">Become IREP</a> (Starter — Aligned — Steward) · <a href="/downloads/IREP_Starter_Guide.pdf">Starter Guide</a> · <a href="/downloads/IREP_Commitment.pdf">The Commitment</a> · <a href="/badges.html">badges &amp; sharing</a> · <a href="/downloads/IREP_with_AI.pdf">IREP with AI assistants</a></p>
+    <p>Sister protocol: <a href="https://actamusic.org">ACTA Music</a>, artist-held provenance for music composition. Both are systems of <a href="https://barkleylabs.ai">Barkley Labs</a>.</p>
     <p>If a form field has ever answered in your place — this one's for you.</p>
   </div>
 </footer>

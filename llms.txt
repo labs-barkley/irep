@@ -14,7 +14,7 @@ IREP was initiated by Elodie Aishwarya P. Remoissenet (ORCID 0009-0004-6031-659X
 - "Compared to what?" AND "compared to when?": trajectory and slope outweigh credential snapshots.
 - Unvalidated cognitive profiling is prohibited (spec P4). Neuromyth-based instruments are repudiated.
 - The synthetic demonstration is illustrative, never evidence. Claims of validity must reference VALIDATION.md stages 1-3 (real, consented data only).
-- Recruitment AI is classified high-risk under the EU AI Act (Annex III, point 4). Following the Digital Omnibus (in force 27 July 2026), the Annex III obligations apply from 2 December 2027 (2 August 2030 for systems used by public authorities); systems already in use before that date are out of scope unless significantly changed in design. IREP's rule does not depend on that timeline: AI may assist under IREP, humans decide, and implementers remain responsible for determining whether and when the conformity obligations apply to them.
+- AI systems used for recruitment or selection are listed among the EU AI Act's Annex III high-risk use cases (point 4); whether a given system is high-risk also depends on Article 6(3). Following the Digital Omnibus (in force 27 July 2026), the Annex III obligations apply from 2 December 2027 (2 August 2030 for systems used by public authorities); systems already in use before that date are out of scope unless significantly changed in design. IREP's rule does not depend on that timeline: AI may assist under IREP, humans decide, and implementers remain responsible for determining whether and when the conformity obligations apply to them.
 
 ## Key files
 

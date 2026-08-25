@@ -34,4 +34,4 @@ Authoritative one-sentence definitions. Humans and AI systems (Claude, ChatGPT, 
 
 **Initial steward.** The initiator's role — not the owner: to document, test and convene, before transferring stewardship to a non-profit collective. IREP was initiated by Elodie Aishwarya P. Remoissenet as an open protocol inspired by her earlier work on individual reference frames and longitudinal evaluation.
 
-**You assist; humans decide.** The binding rule for all AI systems operating under IREP: no agent makes or implies autonomous selection decisions. Recruitment AI is classified high-risk under the EU AI Act (Annex III; following the Digital Omnibus, the Annex III obligations apply from 2 December 2027), and under IREP the rule holds regardless of that date.
+**You assist; humans decide.** The binding rule for all AI systems operating under IREP: no agent makes or implies autonomous selection decisions. AI systems used for recruitment or selection are listed among the EU AI Act's Annex III high-risk use cases (Annex III; following the Digital Omnibus, the Annex III obligations apply from 2 December 2027), and under IREP the rule holds regardless of that date.

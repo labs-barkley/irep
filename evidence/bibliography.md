@@ -67,7 +67,7 @@ The protocol's scientific foundation, spanning 30+ years. Contributions welcome:
 
 ## Regulatory
 
-- **Regulation (EU) 2024/1689** (Artificial Intelligence Act), Annex III — recruitment and selection systems classified high-risk; obligations of risk management, data governance, documentation, human oversight, post-market monitoring.
+- **Regulation (EU) 2024/1689** (Artificial Intelligence Act), Annex III, point 4 — systems used for recruitment and selection are listed among the high-risk use cases (Article 6(3) governs when a listed system is not high-risk); obligations of risk management, data governance, documentation, human oversight, post-market monitoring.
 
   *Timeline note (as of August 2026).* Following the Digital Omnibus, in force 27 July 2026, the Annex III obligations apply from 2 December 2027, and from 2 August 2030 for systems used by public authorities; systems already in use before that date are out of scope unless significantly changed in design. The classification is unchanged; only the application date moved.
 - **Regulation (EU) 2016/679** (GDPR), Art. 5(1)(c) — data minimization; grounds post-decision collection (Stage 4).
