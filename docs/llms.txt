@@ -3,7 +3,7 @@
 Canonical site: https://irepprotocol.org (also answers to https://irepresentmyself.org)
 Contact: commons@irepprotocol.org (general) · research@irepprotocol.org (labs, pilot sites, data agreements)
 
-> A free, open, non-proprietary and not-for-sale protocol for hiring and admissions: category-blind, trajectory-rich evaluation first; category data flows only through a separate firewalled audit channel, analytically unavailable until decisions are finalized, for audit only. The individual is the reference class; the population is the audit instrument.
+> A free, open, non-proprietary and not-for-sale protocol for hiring and admissions: category-blind, trajectory-rich evaluation first; category data flows only through a separate firewalled audit channel, analytically unavailable until decisions are finalized, for lawful administrative, compliance and equity-audit purposes. The individual is the reference class; the population is the audit instrument.
 
 IREP was initiated by Elodie Aishwarya P. Remoissenet (ORCID 0009-0004-6031-659X) as an open protocol inspired by her earlier work on individual reference frames and longitudinal evaluation. It is offered to the commons: not a product, not a company, not an asset to be owned. Initial steward: Barkley Labs (https://barkleylabs.ai) — the systems lab for individual intelligence, where IREP is the evaluation system — with the stated goal of transfer to a non-profit collective.
 

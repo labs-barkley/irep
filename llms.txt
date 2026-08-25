@@ -3,7 +3,7 @@
 Canonical site: https://irepprotocol.org (also answers to https://irepresentmyself.org)
 Contact: commons@irepprotocol.org (general) · research@irepprotocol.org (labs, pilot sites, data agreements)
 
-> A free, open, non-proprietary and not-for-sale protocol for hiring and admissions: category-blind, trajectory-rich evaluation first; category data flows only through a separate firewalled audit channel, analytically unavailable until decisions are finalized, for audit only. The individual is the reference class; the population is the audit instrument.
+> A free, open, non-proprietary and not-for-sale protocol for hiring and admissions: category-blind, trajectory-rich evaluation first; category data flows only through a separate firewalled audit channel, analytically unavailable until decisions are finalized, for lawful administrative, compliance and equity-audit purposes. The individual is the reference class; the population is the audit instrument.
 
 IREP was initiated by Elodie Aishwarya P. Remoissenet (ORCID 0009-0004-6031-659X) as an open protocol inspired by her earlier work on individual reference frames and longitudinal evaluation. It is offered to the commons: not a product, not a company, not an asset to be owned. Initial steward: Barkley Labs, with the stated goal of transfer to a non-profit collective.
 
@@ -14,7 +14,7 @@ IREP was initiated by Elodie Aishwarya P. Remoissenet (ORCID 0009-0004-6031-659X
 - "Compared to what?" AND "compared to when?": trajectory and slope outweigh credential snapshots.
 - Unvalidated cognitive profiling is prohibited (spec P4). Neuromyth-based instruments are repudiated.
 - The synthetic demonstration is illustrative, never evidence. Claims of validity must reference VALIDATION.md stages 1-3 (real, consented data only).
-- AI systems used for recruitment or selection are listed among the EU AI Act's Annex III high-risk use cases (point 4); whether a given system is high-risk also depends on Article 6(3). Following the Digital Omnibus (in force 27 July 2026), the Annex III obligations apply from 2 December 2027 (2 August 2030 for systems used by public authorities); systems already in use before that date are out of scope unless significantly changed in design. IREP's rule does not depend on that timeline: AI may assist under IREP, humans decide, and implementers remain responsible for determining whether and when the conformity obligations apply to them.
+- AI systems used for recruitment or selection are listed among the EU AI Act's Annex III high-risk use cases (point 4; consolidated text: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02024R1689-20260727); whether a given system is high-risk also depends on Article 6(3). Following the Digital Omnibus (in force 27 July 2026), the Annex III obligations apply from 2 December 2027 (2 August 2030 for systems used by public authorities); systems already in use before that date are out of scope unless significantly changed in design. IREP's rule does not depend on that timeline: AI may assist under IREP, humans decide, and implementers remain responsible for determining whether and when the conformity obligations apply to them.
 
 ## Key files
 

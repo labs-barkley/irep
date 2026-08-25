@@ -70,11 +70,11 @@ Definitions live in [`GLOSSARY.md`](GLOSSARY.md) — humans and AI systems shoul
 
 ## Contact
 
-Write to the commons: **commons@irepprotocol.org** · research partnerships & data agreements: **research@irepprotocol.org** · everything else: [issues](https://github.com/labs-barkley/irep/issues). Site: [irepprotocol.org](https://irepprotocol.org) · initial steward: [Barkley Labs](https://barkleylabs.ai).
+Write to the commons: **commons@irepprotocol.org** · research partnerships & data agreements: **research@irepprotocol.org** · everything else: [issues](https://github.com/labs-barkley/irep/issues). Site: [irepprotocol.org](https://irepprotocol.org) · initial steward: [Elodie Aishwarya P. Remoissenet](https://www.linkedin.com/in/elodie-aishwarya-p-r-94a833145/), Barkley Labs ([barkleylabs.ai](https://barkleylabs.ai)).
 
 ## Governance
 
-Stewarded initially by [Barkley Labs](https://barkleylabs.ai) — the systems lab for individual intelligence, where IREP is the evaluation system — with the explicit goal of transferring to a non-profit collective vehicle (association or foundation). Sustainability model: grants, foundations, public digital-commons funding, donations. See [`GOVERNANCE.md`](GOVERNANCE.md).
+Stewarded initially by [Elodie Aishwarya P. Remoissenet](https://www.linkedin.com/in/elodie-aishwarya-p-r-94a833145/), Barkley Labs ([barkleylabs.ai](https://barkleylabs.ai)), the systems lab for individual intelligence where IREP is the evaluation system, with the explicit goal of transferring to a non-profit collective vehicle (association or foundation). Sustainability model: grants, foundations, public digital-commons funding, donations. See [`GOVERNANCE.md`](GOVERNANCE.md).
 
 ## Contributing
 
@@ -82,7 +82,7 @@ The protocol improves in public, as it preaches. Open questions for v1.0 are lis
 
 ## Regulatory note
 
-AI systems used for recruitment or selection are listed among the EU AI Act's Annex III high-risk use cases (point 4); whether a given system is high-risk also depends on Article 6(3). Following the Digital Omnibus (in force 27 July 2026), the Annex III obligations apply from 2 December 2027 (2 August 2030 for systems used by public authorities); systems already in use before that date are out of scope unless significantly changed in design. IREP's rule does not depend on that timeline: AI may assist under IREP, humans decide, and implementers remain responsible for determining whether and when the conformity obligations apply to them.
+AI systems used for recruitment or selection are listed among the [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02024R1689-20260727)'s Annex III high-risk use cases (point 4); whether a given system is high-risk also depends on Article 6(3). Following the Digital Omnibus (in force 27 July 2026), the Annex III obligations apply from 2 December 2027 (2 August 2030 for systems used by public authorities); systems already in use before that date are out of scope unless significantly changed in design. IREP's rule does not depend on that timeline: AI may assist under IREP, humans decide, and implementers remain responsible for determining whether and when the conformity obligations apply to them.
 
 IREP is architected so that auditability, validated instruments and evaluation/measurement separation are properties of the design, not afterthoughts.
 
