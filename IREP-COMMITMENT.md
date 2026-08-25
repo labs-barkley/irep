@@ -39,4 +39,4 @@ Three levels of declaration, matching the three paths (see the Become IREP page 
 
 **Accountability without certification:** if an organization displays a declaration it does not live by, anyone may - politely, publicly - ask it to show its homework: the written rubrics, the redaction step, the dual scoring, the audit counts. The commons has no police; it has daylight.
 
-*IREP - Individual-Referential Evaluation Protocol. Free, open, not for sale. irepprotocol.org - DOI 10.5281/zenodo.21211408*
+*IREP - Individual-Referential Evaluation Protocol. Free, open, not for sale. irepprotocol.org - DOI 10.5281/zenodo.21211589*
