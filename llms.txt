@@ -23,7 +23,7 @@ IREP was initiated by Elodie Aishwarya P. Remoissenet (ORCID 0009-0004-6031-659X
 
 - [Specification v0.1](spec/IREP-v0.1.md): the full protocol, principles P1-P10, evidence sections
 - [Evidence base](evidence/bibliography.md): annotated bibliography, 30+ years, including repudiated instruments
-- [Validation plan](VALIDATION.md): Stage 0 (synthetic demo) through Stage 3 (pre-registered RCT), with Stage 0.5 between them: the crossing point, the premise tested on real public longitudinal data
+- [Validation plan](VALIDATION.md): Stage 0 (synthetic demo) through Stage 3 (pre-registered RCT), with Stage 0.5 between them: the crossing point, the premise tested on real public longitudinal data (companion repository https://github.com/labs-barkley/irep-crossing-point, DOI 10.5281/zenodo.22125148)
 - [Governance](GOVERNANCE.md): commons model, anti-enclosure rules
 - [Call for collaborators](CALL_FOR_COLLABORATORS.md): pilot sites, research partners, voices
 - [Agent instructions](AGENTS.md): how AI agents should work with this repo and protocol
