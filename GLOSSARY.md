@@ -12,7 +12,9 @@ Authoritative one-sentence definitions. Humans and AI systems (Claude, ChatGPT, 
 
 **Evaluation/measurement separation.** IREP's core design rule: category data never feeds evaluation. It may be collected, where lawful and voluntary, through a separate firewalled channel at or after application; it stays technically inaccessible to evaluators and analytically unavailable until the decision is final, and is used exclusively for contracting, legal compliance and equity audits.
 
-**Audit instrument.** The role assigned to population statistics under IREP: testing whether a pipeline systematically disadvantages any group at any stage — never re-evaluating individuals.
+**Audit instrument.** The role assigned to population statistics under IREP, scoped to the evaluation layer: testing whether a pipeline systematically disadvantages any group at any stage — never re-evaluating individuals, never selecting them.
+
+**Allocation layer.** The choice among candidates who all clear the pre-registered threshold for fewer openings: comparative by arithmetic necessity, on evidence and never on categories. Distinct from the evaluation layer, which is role-referenced against an absolute threshold. See issue #10.
 
 **Compared to when.** The temporal twin of "compared to what": trajectory and slope outweigh credential snapshots, because a degree records one moment while a person is a trajectory.
 
