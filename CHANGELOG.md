@@ -14,6 +14,8 @@ All notable changes to the IREP specification and repository.
 ## [0.1.3] - 2026-08-26
 ### Added
 - VALIDATION.md Stage 0.5: the crossing point. The protocol's premise tested on real public longitudinal data (69 seasons, Lahman Baseball Database); pilot result stated with its conditions (upper bound, floor-conditional, single domain); companion repository referenced (publication pending). Numbered 0.5 so Stages 0-3 keep their meaning in existing issue references.
+- Cross-cutting rule 1 amended alongside Stage 0.5, and stated here so the change is dated rather than discovered by git blame: the no-non-consented-human-data rule gains one sentence saying why the Lahman source is not an exception to it (published, licensed CC BY-SA, aggregate performance statistics of a public profession, no private attributes, no scraping). The rule itself is unchanged for candidate data.
+- VALIDATION.md intro reads "in stages" rather than "in four stages" (Stage 0.5 exists), and Stage 1's target is retitled "first real-data result on the protocol itself" to keep the premise/protocol distinction exact.
 - README (Status): the registry framing from issue #4 surfaced; the registry is the measurement infrastructure and what makes conformance third-party verifiable, the badge is proof of enrollment.
 ### Changed
 - README: the Stage 0 circularity sentence now points at Stage 0.5 as its first real-data answer.
