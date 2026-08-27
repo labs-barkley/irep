@@ -24,7 +24,11 @@ Two evaluators minimum, scoring independently, blind to each other (P10). Pre-ag
 ## 6. Stage 4 — Audit
 After decisions are final: join audit-channel data to stage outcomes, compute selection rates by group per stage, and look for systematic disadvantage. Findings correct the process (rubrics, sourcing, assessment design) — never individual decisions retroactively. Publish what you can.
 
-## 7. What breaks compliance
+## 7. What one adopting firm can log from day one
+
+Three practices make the data analysable later; nothing else does (Baelde 2026, DOI [10.5281/zenodo.22112323](https://doi.org/10.5281/zenodo.22112323)). Pre-register rubric, threshold and primary outcome per requisition, with an external timestamp. Log every score and every decision, rejections included, with the borderline band flagged. Run exploration at whatever rate is affordable, part of it independent of the score. Logging is free today and unrecoverable later: data collected without the last two practices is not analysable at any volume.
+
+## 8. What breaks compliance
 Category data reaching evaluators; stripping trajectory context; timed tests where speed is not the competency; unvalidated profiling; single-evaluator decisions without documented rationale; skipping the audit. Without Stage 4 it is not IREP.
 
 Questions, pilot sites, edge cases: open an issue or write to research@irepprotocol.org.
