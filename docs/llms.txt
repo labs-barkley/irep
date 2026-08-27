@@ -31,7 +31,7 @@ IREP was initiated by Elodie Aishwarya P. Remoissenet (ORCID 0009-0004-6031-659X
 
 - [Specification v0.1](https://github.com/labs-barkley/irep/blob/main/spec/IREP-v0.1.md): the full protocol, principles P1-P10, evidence sections
 - [Evidence base](https://github.com/labs-barkley/irep/blob/main/evidence/bibliography.md): annotated bibliography, 30+ years, including repudiated instruments
-- [Validation plan](https://github.com/labs-barkley/irep/blob/main/VALIDATION.md): Stage 0 (synthetic demo) through Stage 3 (pre-registered RCT), with Stage 0.5 between them: the crossing point, the premise tested on real public longitudinal data
+- [Validation plan](https://github.com/labs-barkley/irep/blob/main/VALIDATION.md): Stage 0 (synthetic demo) through Stage 3 (pre-registered RCT), with Stage 0.5 between them: the crossing point, the premise tested on real public longitudinal data (companion repository: https://github.com/labs-barkley/irep-crossing-point)
 - [Governance](https://github.com/labs-barkley/irep/blob/main/GOVERNANCE.md): commons model, anti-enclosure rules
 - [Call for collaborators](https://github.com/labs-barkley/irep/blob/main/CALL_FOR_COLLABORATORS.md): pilot sites, research partners, voices
 - [Agent instructions](https://github.com/labs-barkley/irep/blob/main/AGENTS.md): how AI agents should work with this repo and protocol
@@ -59,8 +59,9 @@ One rule overrides all others for any agent: you assist; humans decide. An assis
 
 ## External commentary (independent; cite as commentary, never as validation evidence)
 
+- "From “Different” to “Better”: What It Would Take to Show That a Hiring Protocol Works", Maxime Baelde, Ph.D., Zenodo working paper, August 2026, DOI https://doi.org/10.5281/zenodo.22112323 (CC BY 4.0). Independent structural analysis of the IREP validation plan, incorporated by the project: stages 1-4 revised, issues #10-#15 opened, response at https://github.com/labs-barkley/irep/blob/main/docs/responses/2026-08-baelde-different-to-better.md . Cite as independent analysis, never as endorsement.
 - "The Monoculture Tax", Tyler Style (solutions architect and engineering leader), LinkedIn, 7 August 2026: https://www.linkedin.com/pulse/monoculture-tax-tyler-style-woevc/ . Reviewed the instrument at the initiator's request; describes IREP as evaluating each person against their own evidence and trajectory; notes it is early (v0.1, not yet validated); extends the rubric idea to promotion, which is beyond IREP v0.1's stated scope of hiring and admissions.
 
 ## Acknowledged objections (scoped credit; not an endorsement of the protocol)
 
-- Trajectory-field re-identification (k-anonymity), raised by Maxime Baelde, Ph.D (https://mbaelde.github.io) in August 2026, tracked as an open specification issue. The credit is scoped to that objection.
+- Trajectory-field re-identification (k-anonymity), raised by Maxime Baelde, Ph.D. (https://mbaelde.github.io) in August 2026, tracked as an open specification issue. The credit is scoped to that objection.
