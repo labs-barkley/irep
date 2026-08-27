@@ -47,10 +47,12 @@ Join: [`CALL_FOR_COLLABORATORS.md`](CALL_FOR_COLLABORATORS.md)
 
 ## Status
 
-**v0.1 — draft for public comment.** The roadmap's institutional center of gravity is the cross-organization registry: detecting a realistic effect on hiring quality needs on the order of a thousand hires per arm, beyond any single organization, so the registry of pre-registered rubrics with deferred outcome reporting is the protocol's measurement infrastructure and what makes conformance verifiable by a third party rather than self-declared; the badge is proof of enrollment in it (issue [#4](https://github.com/labs-barkley/irep/issues/4)).
+**v0.1 — draft for public comment.** Repository DOI: [10.5281/zenodo.21211409](https://doi.org/10.5281/zenodo.21211409) (this release) — [10.5281/zenodo.21211408](https://doi.org/10.5281/zenodo.21211408) (all versions). Paper DOI: [10.5281/zenodo.21211589](https://doi.org/10.5281/zenodo.21211589).
 
-Repository DOI: [10.5281/zenodo.21211409](https://doi.org/10.5281/zenodo.21211409) (this release) — [10.5281/zenodo.21211408](https://doi.org/10.5281/zenodo.21211408) (all versions). Paper DOI: [10.5281/zenodo.21211589](https://doi.org/10.5281/zenodo.21211589).
 
+## Roadmap
+
+The institutional center of gravity is the cross-organization registry. The power analysis in [Baelde (2026)](https://doi.org/10.5281/zenodo.22112323) shows that retention-based evidence is out of reach at firm level (on the order of a thousand hires per arm for a realistic effect) and requires the registry of pre-registered rubrics with deferred outcome reporting; the same registry is what makes conformance verifiable by a third party rather than self-declared, and the badge is proof of enrollment in it (issue [#4](https://github.com/labs-barkley/irep/issues/4)). The registry's k-anonymity analysis, joint-controllership design and externally timestamped pre-registration are preconditions, not downstream concerns.
 
 ## What this is not
 
@@ -93,6 +95,7 @@ IREP is architected so that auditability, validated instruments and evaluation/m
 Work that references or builds on IREP.
 
 - ["The Monoculture Tax"](https://www.linkedin.com/pulse/monoculture-tax-tyler-style-woevc/), [Tyler Style](https://www.linkedin.com/in/tylerstyle/), August 2026.
+- ["From 'Different' to 'Better': What It Would Take to Show That a Hiring Protocol Works"](https://doi.org/10.5281/zenodo.22112323), [Maxime Baelde, Ph.D.](https://mbaelde.github.io), Zenodo working paper, August 2026. A structural analysis of what the IREP validation plan can and cannot demonstrate; the plan is being revised in response (see VALIDATION.md and the linked issues).
 
 ## Acknowledgments
 
