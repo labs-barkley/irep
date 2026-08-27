@@ -22,19 +22,25 @@ Numbered 0.5 deliberately: it slots between the synthetic demonstration and the 
 
 **What it can show.** That the protocol's premise (evaluate the individual against their own record, not their category) holds on real, outcome-linked, longitudinal data at a measurable threshold, in the domain where the strongest public baseline (Marcel-class forecasting) and the most hostile statistical readership exist.
 
-**What it cannot show, ever.** Anything about hiring. Baseball supplies hundreds of observations per subject; a hiring file supplies a handful. Nothing here touches IREP's pipeline stages, rubrics, or firewalled measurement. And a single domain cannot establish that n\* transfers: the confirmatory test is a second domain with a different noise structure (Dog Aging Project application in preparation; hypotheses frozen before any data access). This stage validates a premise, not the protocol.
+**What it cannot show, ever.** Anything about hiring. Baseball supplies hundreds of observations per subject; a hiring file supplies a handful. Nothing here touches IREP's pipeline stages, rubrics, or firewalled measurement. And a single domain cannot establish that n\* transfers: the confirmatory test is a second domain with a different noise structure (Dog Aging Project application in preparation; hypotheses frozen before any data access). This stage validates a premise, not the protocol: it tests the estimator claim, not the causal effect of the protocol on hire quality. For the latter, see Baelde (2026), DOI 10.5281/zenodo.22112323, and `docs/responses/2026-08-baelde-different-to-better.md`.
 
 ## Stage 1 — Retrospective re-scoring (target: first real-data result on the protocol itself)
 
 Partner practitioners (recruiters, headhunters, employers) re-screen past, closed hiring pipelines under IREP rules, on a lawful basis (anonymized records, data-processing agreement, GDPR legal basis documented before any transfer). Endpoints: (a) divergence between IREP-selected and actually-selected sets; (b) where post-hire performance data exists, comparison of both selected sets against realized performance. Limitations stated in advance: survivorship (performance data exists only for those actually hired), and site selection effects.
 
+**Ceiling, stated plainly (Baelde 2026, §2.2; issue #14).** Under a deterministic historical decision rule the selection propensity is exactly 0 or 1, so the half of the disagreement region that carries the protocol's claim is empty by construction. Stage 1 deliverables are therefore divergence and composition, never value. One documented fissure: where the historical pipeline logged screener identity and file assignment across screeners was quasi-random, examiner-severity designs identify a local effect on marginal candidates, because the propensity is then strictly between 0 and 1 on part of the region. A condition on the historical data, not a repair of the general case.
+
 ## Stage 2 — Parallel-pipeline pilot
 
 On live, real hiring: candidates consent to dual screening (conventional and IREP, run independently and blind to each other); the hiring decision follows one pipeline per pre-registered assignment; divergence and downstream outcomes are tracked. This is the correspondence-study design brought inside the funnel. Requires: candidate consent flows, evaluator firewalling, and a pre-registered analysis plan (OSF).
 
+**Two exploration designs, two estimands (Baelde 2026, §2.3; issue #11).** Randomising the tie-break among near-equal scores identifies a threshold-local effect; advancing a fraction of candidates independently of their score identifies the response of the reclassified population, which is the quantity the protocol makes a claim about. Both are pre-registered separately as what they are, with part of the exploration budget reserved for score-independent advancement. Regression discontinuity at the threshold is the fallback if deliberate exploration is refused, valid only with a continuous logged score, a mechanical pre-committed cutoff, mass near it, and no evaluator manipulation.
+
+**Outcome hierarchy (Baelde 2026, §3.1; issue #12), pre-registered.** Primary: survival at 12 months, split by voluntary and involuntary separation. Then: a pre-registered binary manager judgement at 6 months; objective role-specific output where it genuinely exists; ratings with rater fixed effects as secondary only, given their near-circularity for a debiasing protocol; 30 and 90 day milestones as secondary endpoints never promoted to substitutes.
+
 ## Stage 3 — Randomized controlled trial (with academic partners)
 
-Randomization at the requisition or site level, university lab partnership, ethics committee approval, OSF pre-registration, and longitudinal follow-up of hire performance and retention. This is what moves IREP from GitHub into the literature.
+Randomization at the requisition or site level, university lab partnership, ethics committee approval, OSF pre-registration, and longitudinal follow-up of hire performance and retention. This is what moves IREP from GitHub into the literature. Pre-registered to claim divergence, composition and process metrics: the power analysis in Baelde (2026, Appendix A) shows retention-based evidence needs on the order of a thousand hires per arm before clustering, out of reach at firm level; retention claims are deferred to the registry (issue #15).
 
 ## Cross-cutting rules
 
@@ -42,7 +48,7 @@ Randomization at the requisition or site level, university lab partnership, ethi
 2. **Pre-registration before real data.** Analysis plans for Stages 1–3 are pre-registered (OSF) before data access.
 3. **"Different" before "better."** The honest near-term claim is that IREP selects *differently*, and in ways traceable to documented design choices. "Better" requires longitudinal performance data and will take the time it takes — the protocol is judged on its trajectory, as it preaches (spec P6).
 4. **Negative and null results are published.** Same repository, same prominence.
-5. **Stage 4 of the protocol is the instrument.** IREP's own post-decision measurement layer is the data-collection infrastructure for its validation — implementers who adopt the protocol are, by design, equipped to contribute evidence.
+5. **Stage 4 of the protocol is the instrument.** IREP's own post-decision measurement layer is the data-collection infrastructure for its validation — implementers who adopt the protocol are, by design, equipped to contribute evidence. The audit set includes differential prediction (Cleary 1968) alongside selection rates: whether the rubric score predicts the outcome with the same intercept and slope across groups. Equal selection rates with unequal calibration is the invisible failure mode, and the firewalled channel collects exactly the data this test needs at the time it needs it; the stated caveat is that estimating on hires alone conditions on a collider, and range-restriction corrections there are at best partial (Baelde 2026, §3.2; issue #13).
 
 ## What partners get
 
@@ -51,3 +57,7 @@ Pilot sites: the reference implementation, analysis support, and co-authorship o
 ## Contact
 
 Open an issue tagged `pilot-site`, `research-partner`, or see CALL_FOR_COLLABORATORS.md.
+
+## Reference
+
+Baelde, M. (2026). From "Different" to "Better": What It Would Take to Show That a Hiring Protocol Works. Zenodo working paper. DOI [10.5281/zenodo.22112323](https://doi.org/10.5281/zenodo.22112323). Response: `docs/responses/2026-08-baelde-different-to-better.md`.
