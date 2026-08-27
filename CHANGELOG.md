@@ -2,6 +2,15 @@
 
 All notable changes to the IREP specification and repository.
 
+## Unreleased (v0.2-dev)
+### External review
+- Baelde (2026), DOI 10.5281/zenodo.22112323, tracked in issues #10 to #15. Response: docs/responses/2026-08-baelde-different-to-better.md. VALIDATION.md stages 1-4 revised; implementation guide gains the operational logging triad; glossary gains the evaluation/allocation layer distinction.
+### What v0.2 waits on
+- The threshold decision text finalised in the spec (issue #10 closed or stabilised).
+- The exploration-design and outcome-hierarchy revisions settled (issues #11, #12).
+- A comment window for the external reviewer before the release is cut.
+- v0.1 on Zenodo is immutable and stays as is; the v0.2 DOI mints at release time through the existing integration.
+
 ## [0.1.3] - 2026-08-26
 ### Added
 - VALIDATION.md Stage 0.5: the crossing point. The protocol's premise tested on real public longitudinal data (69 seasons, Lahman Baseball Database); pilot result stated with its conditions (upper bound, floor-conditional, single domain); companion repository referenced (publication pending). Numbered 0.5 so Stages 0-3 keep their meaning in existing issue references.
