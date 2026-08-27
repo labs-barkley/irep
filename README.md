@@ -49,6 +49,8 @@ Join: [`CALL_FOR_COLLABORATORS.md`](CALL_FOR_COLLABORATORS.md)
 
 **v0.1 — draft for public comment.** Repository DOI: [10.5281/zenodo.21211409](https://doi.org/10.5281/zenodo.21211409) (this release) — [10.5281/zenodo.21211408](https://doi.org/10.5281/zenodo.21211408) (all versions). Paper DOI: [10.5281/zenodo.21211589](https://doi.org/10.5281/zenodo.21211589).
 
+**First real-data result.** Stage 0.5 of [`VALIDATION.md`](VALIDATION.md), the crossing point: the protocol's premise measured out of sample on 69 seasons of public baseball data — the individual record overtakes the reference class at 1.89 prior seasons for a slow composite metric (95% CI [1.71, 2.15]), below one season for a stable skill. Pilot, hypothesis-generating, upper bound, floor-conditional; hypotheses frozen for a confirmatory second domain. Companion repository: [irep-crossing-point](https://github.com/labs-barkley/irep-crossing-point) · DOI [10.5281/zenodo.22125148](https://doi.org/10.5281/zenodo.22125148).
+
 
 ## Roadmap
 
