@@ -6,7 +6,14 @@
   <atom:link href="https://irepprotocol.org/feed.xml" rel="self" type="application/rss+xml"/>
   <description>The Individual-Referential Evaluation Protocol: an open standard for category-blind, trajectory-rich assessment in hiring and admissions. A commons, stewarded by Barkley Labs.</description>
   <language>en</language>
-  <lastBuildDate>Mon, 24 Aug 2026 00:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 27 Aug 2026 00:00:00 GMT</lastBuildDate>
+  <item>
+    <title>Stage 0.5: the premise measured on real data</title>
+    <link>https://github.com/labs-barkley/irep/blob/main/VALIDATION.md</link>
+    <guid isPermaLink="false">irep-stage-0-5-crossing-point</guid>
+    <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+    <description>On 69 seasons of public baseball data, a pilot measures where an individual's own record overtakes their reference class out of sample. Hypothesis-generating, an upper bound, one domain; the confirmatory domain comes next.</description>
+  </item>
   <item>
     <title>EU AI Act wording aligned with the Digital Omnibus</title>
     <link>https://github.com/labs-barkley/irep/blob/main/CHANGELOG.md</link>
