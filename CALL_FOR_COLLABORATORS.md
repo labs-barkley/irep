@@ -12,7 +12,7 @@ IREP is a commons. It needs three circles of people, and it needs them more than
 
 ## 2. Research partners — laboratories
 
-**Who:** University labs in labor economics, I/O psychology, psychometrics, ML fairness, employment law. IREP needs its Stage 2 instruments validated, its Stage 3 RCT designed, its analysis plans pre-registered and its claims kept honest.
+**Who:** University labs in labor economics, I/O psychology, psychometrics, ML fairness, employment law. IREP needs its assessment instruments (protocol Stage 2) validated, its RCT (validation Stage 3) designed, its analysis plans pre-registered and its claims kept honest.
 
 **What it involves:** Methodology co-design, ethics committee processes, OSF pre-registration, publication. The protocol offers a ready-made field-experiment infrastructure (the Stage 4 measurement layer) and a citable open standard.
 
