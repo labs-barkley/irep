@@ -92,7 +92,7 @@ The research has been available for decades. What has been missing is not eviden
 
 ---
 
-## References (to be completed with full citations before deposit)
+## References
 
 - Steele, C. M., & Aronson, J. (1995). Stereotype threat and the intellectual test performance of African Americans. *Journal of Personality and Social Psychology*, 69(5), 797–811.
 - Bertrand, M., & Mullainathan, S. (2004). Are Emily and Greg more employable than Lakisha and Jamal? A field experiment on labor market discrimination. *American Economic Review*, 94(4), 991–1013.
@@ -110,4 +110,4 @@ The research has been available for decades. What has been missing is not eviden
 - Pashler, H., McDaniel, M., Rohrer, D., & Bjork, R. (2008). Learning styles: Concepts and evidence. *Psychological Science in the Public Interest*, 9(3), 105–119.
 - The broader annotated evidence base (cognitive mechanisms, foundations, audit-study replications) is maintained at evidence/bibliography.md.
 - Regulation (EU) 2024/1689 (Artificial Intelligence Act), Annex III, point 4 (high-risk systems: employment), as amended by the Digital Omnibus (in force 27 July 2026; Annex III obligations applicable from 2 December 2027).
-- Remoissenet, E. A. P. (2025–2026). Prior works on reference-class error and individual longitudinal baselines. Zenodo, DOI 10.5281/zenodo.20060327; *The Normative Trap*, DOI 10.5281/zenodo.20516821.
+- Remoissenet, Elodie Aishwarya P. (2025–2026). Prior works on reference-class error and individual longitudinal baselines. Zenodo, DOI 10.5281/zenodo.20060327; *The Normative Trap*, DOI 10.5281/zenodo.20516821.
