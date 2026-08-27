@@ -38,16 +38,18 @@ IREP's answer is not to hide category data but to **relocate it in time**: evalu
 
 ![Pipeline comparison on synthetic data](simulation/figures/fig1_pipeline_comparison.png)
 
-On a synthetic population where both groups have identical true competence *by construction*, a conventional pipeline (category-visible, credential-bonused, time-pressured) selects a group-B share of ~16% against a 30% population baseline; the IREP pipeline restores group B to its population share **while selecting higher mean true competence**: under the explicitly stated assumptions, the IREP pipeline selects a different set of candidates and recovers more of the simulated true-competence signal. The two pipelines overlap on fewer than half their selections. **Illustrative only: the biases are injected, so detecting them is circular** — see [`VALIDATION.md`](VALIDATION.md) for the real-data stages.
+On a synthetic population where both groups have identical true competence *by construction*, a conventional pipeline (category-visible, credential-bonused, time-pressured) selects a group-B share of ~16% against a 30% population baseline; the IREP pipeline restores group B to its population share **while selecting higher mean true competence**: under the explicitly stated assumptions, the IREP pipeline selects a different set of candidates and recovers more of the simulated true-competence signal. The two pipelines overlap on fewer than half their selections. **Illustrative only: the biases are injected, so detecting them is circular.** The first real-data answer to that sentence is Stage 0.5 of [`VALIDATION.md`](VALIDATION.md): on 69 seasons of public baseball data, the individual record overtakes the reference class at a measured threshold, in the direction stated in advance; the pilot generates the hypotheses, and the confirmatory test is pre-registered for a second domain.
 
 Full specification: [`spec/IREP-v0.1.md`](spec/IREP-v0.1.md)
-Validation plan (4 stages, from synthetic demonstration to RCT): [`VALIDATION.md`](VALIDATION.md)
+Validation plan (synthetic demonstration to RCT, with a real-data premise stage between): [`VALIDATION.md`](VALIDATION.md)
 Stage 0 mechanism demonstration (runnable, seeded, honest about its limits): [`simulation/synthetic_demo.py`](simulation/synthetic_demo.py)
 Join: [`CALL_FOR_COLLABORATORS.md`](CALL_FOR_COLLABORATORS.md)
 
 ## Status
 
-**v0.1 — draft for public comment.** Repository DOI: [10.5281/zenodo.21211409](https://doi.org/10.5281/zenodo.21211409) (this release) — [10.5281/zenodo.21211408](https://doi.org/10.5281/zenodo.21211408) (all versions). Paper DOI: [10.5281/zenodo.21211589](https://doi.org/10.5281/zenodo.21211589).
+**v0.1 — draft for public comment.** The roadmap's institutional center of gravity is the cross-organization registry: detecting a realistic effect on hiring quality needs on the order of a thousand hires per arm, beyond any single organization, so the registry of pre-registered rubrics with deferred outcome reporting is the protocol's measurement infrastructure and what makes conformance verifiable by a third party rather than self-declared; the badge is proof of enrollment in it (issue [#4](https://github.com/labs-barkley/irep/issues/4)).
+
+Repository DOI: [10.5281/zenodo.21211409](https://doi.org/10.5281/zenodo.21211409) (this release) — [10.5281/zenodo.21211408](https://doi.org/10.5281/zenodo.21211408) (all versions). Paper DOI: [10.5281/zenodo.21211589](https://doi.org/10.5281/zenodo.21211589).
 
 
 ## What this is not
@@ -96,7 +98,7 @@ Work that references or builds on IREP.
 
 IREP improves through external criticism. Contributions listed here are scoped to the specific point raised; inclusion does not imply endorsement of the protocol.
 
-- **Maxime Baelde, Ph.D** ([mbaelde.github.io](https://mbaelde.github.io)) raised the trajectory-field re-identification objection (k-anonymity), now tracked as issue [#2](https://github.com/labs-barkley/irep/issues/2). This acknowledgment is scoped to that objection and does not imply endorsement of the protocol.
+- **Maxime Baelde, Ph.D.** ([mbaelde.github.io](https://mbaelde.github.io)) raised the trajectory-field re-identification objection (k-anonymity), now tracked as issue [#2](https://github.com/labs-barkley/irep/issues/2). This acknowledgment is scoped to that objection.
 
 ## License
 
