@@ -82,6 +82,8 @@ Write to the commons: **commons@irepprotocol.org** · research partnerships & da
 
 Stewarded initially by [Elodie Aishwarya P. Remoissenet](https://www.linkedin.com/in/elodie-aishwarya-p-r-94a833145/), Barkley Labs ([barkleylabs.ai](https://barkleylabs.ai)), the systems lab for individual intelligence where IREP is the evaluation system, with the explicit goal of transferring to a non-profit collective vehicle (association or foundation). Sustainability model: grants, foundations, public digital-commons funding, donations. See [`GOVERNANCE.md`](GOVERNANCE.md).
 
+Maintained by a single steward today, with governance written for handoff: see [GOVERNANCE.md](GOVERNANCE.md) for succession, dormancy and fork, and [MAINTAINERS.md](MAINTAINERS.md) for scopes and how to become one.
+
 ## Contributing
 
 The protocol improves in public, as it preaches. Open questions for v1.0 are listed in the spec (§8): licensing, the Stage 2 validation methodology and instrument library, the minimal audit-statistics set, the admissions profile, the EU AI Act conformity cookbook. See [`CONTRIBUTING.md`](CONTRIBUTING.md).

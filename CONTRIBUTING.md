@@ -25,3 +25,13 @@ Declarative, precise, no hype. The spec avoids adjectives it cannot cite. Claims
 ## AI-assisted contributions
 
 Welcome, with the same rule the project itself follows: disclose the assistance, and stand personally accountable for accuracy, sourcing and originality.
+
+## Roles and promotion
+
+Contributors become maintainers by accumulating merged work in a defined scope. The scopes, the current holders and the promotion procedure are in `MAINTAINERS.md`. Succession, dormancy and fork are in `GOVERNANCE.md`.
+
+The project is maintained by one person today. If that concerns you, it should: it is the reason the governance is written for handoff rather than for control, and the reason every scope is documented as open.
+
+## Criticism
+
+Objections to the protocol are the contribution this project most needs, and they belong in public. The first independent review, by Maxime Baelde, was reproduced, disagreed with parts of the pilot and was filed as a public issue; the responses live in `docs/responses`. That is the standard. Approval is not required, and agreement is not the point.
