@@ -47,14 +47,14 @@ Join: [`CALL_FOR_COLLABORATORS.md`](CALL_FOR_COLLABORATORS.md)
 
 ## Status
 
-**v0.1 — draft for public comment.** Repository DOI: [10.5281/zenodo.21211409](https://doi.org/10.5281/zenodo.21211409) (this release) — [10.5281/zenodo.21211408](https://doi.org/10.5281/zenodo.21211408) (all versions). Paper DOI: [10.5281/zenodo.21211589](https://doi.org/10.5281/zenodo.21211589).
+**v0.1 — draft for public comment.** Repository DOI: [10.5281/zenodo.21211409](https://doi.org/10.5281/zenodo.21211409) (this release) — [10.5281/zenodo.21211408](https://doi.org/10.5281/zenodo.21211408) (all versions). Paper DOI: [10.5281/zenodo.21211588](https://doi.org/10.5281/zenodo.21211588).
 
 **First real-data result.** Stage 0.5 of [`VALIDATION.md`](VALIDATION.md), the crossing point: the protocol's premise measured out of sample on 69 seasons of public baseball data — the individual record overtakes the reference class at 1.89 prior seasons for a slow composite metric (95% CI [1.71, 2.15]), below one season for a stable skill. Pilot, hypothesis-generating, upper bound, floor-conditional; hypotheses frozen for a confirmatory second domain. Companion repository: [irep-crossing-point](https://github.com/labs-barkley/irep-crossing-point) · DOI [10.5281/zenodo.22125148](https://doi.org/10.5281/zenodo.22125148).
 
 
 ## Roadmap
 
-The institutional center of gravity is the cross-organization registry. The power analysis in [Baelde (2026)](https://doi.org/10.5281/zenodo.22112323) shows that retention-based evidence is out of reach at firm level (on the order of a thousand hires per arm for a realistic effect) and requires the registry of pre-registered rubrics with deferred outcome reporting; the same registry is what makes conformance verifiable by a third party rather than self-declared, and the badge is proof of enrollment in it (issue [#4](https://github.com/labs-barkley/irep/issues/4)). The registry's k-anonymity analysis, joint-controllership design and externally timestamped pre-registration are preconditions, not downstream concerns.
+The institutional center of gravity is the cross-organization registry. The power analysis in [Baelde (2026)](https://doi.org/10.5281/zenodo.22112322) shows that retention-based evidence is out of reach at firm level (on the order of a thousand hires per arm for a realistic effect) and requires the registry of pre-registered rubrics with deferred outcome reporting; the same registry is what makes conformance verifiable by a third party rather than self-declared, and the badge is proof of enrollment in it (issue [#4](https://github.com/labs-barkley/irep/issues/4)). The registry's k-anonymity analysis, joint-controllership design and externally timestamped pre-registration are preconditions, not downstream concerns.
 
 ## What this is not
 
@@ -68,7 +68,7 @@ Anyone. Employers, schools, public services, and yes, commercial HR/ATS vendors 
 
 ## Cite IREP
 
-`CITATION.cff` is in the repo root (GitHub renders a "Cite this repository" button); each release is archived on Zenodo via `.zenodo.json`. Repository DOI: 10.5281/zenodo.21211408 (concept, all versions). Paper DOI: [10.5281/zenodo.21211589](https://doi.org/10.5281/zenodo.21211589).
+`CITATION.cff` is in the repo root (GitHub renders a "Cite this repository" button); each release is archived on Zenodo via `.zenodo.json`. Repository DOI: 10.5281/zenodo.21211408 (concept, all versions). Paper DOI: [10.5281/zenodo.21211588](https://doi.org/10.5281/zenodo.21211588).
 
 ## Canonical language
 
@@ -99,7 +99,7 @@ IREP is architected so that auditability, validated instruments and evaluation/m
 Work that references or builds on IREP.
 
 - ["The Monoculture Tax"](https://www.linkedin.com/pulse/monoculture-tax-tyler-style-woevc/), [Tyler Style](https://www.linkedin.com/in/tylerstyle/), August 2026.
-- ["From 'Different' to 'Better': What It Would Take to Show That a Hiring Protocol Works"](https://doi.org/10.5281/zenodo.22112323), [Maxime Baelde, Ph.D.](https://mbaelde.github.io), Zenodo working paper, August 2026. A structural analysis of what the IREP validation plan can and cannot demonstrate; the plan is being revised in response (see VALIDATION.md and the linked issues).
+- ["From 'Different' to 'Better': What It Would Take to Show That a Hiring Protocol Works"](https://doi.org/10.5281/zenodo.22112322), [Maxime Baelde, Ph.D.](https://mbaelde.github.io), Zenodo working paper, August 2026. A structural analysis of what the IREP validation plan can and cannot demonstrate; the plan is being revised in response (see VALIDATION.md and the linked issues).
 
 ## Acknowledgments
 
