@@ -22,7 +22,7 @@ Numbered 0.5 deliberately: it slots between the synthetic demonstration and the 
 
 **What it can show.** That the protocol's premise (evaluate the individual against their own record, not their category) holds on real, outcome-linked, longitudinal data at a measurable threshold, in the domain where the strongest public baseline (Marcel-class forecasting) and the most hostile statistical readership exist.
 
-**What it cannot show, ever.** Anything about hiring. Baseball supplies hundreds of observations per subject; a hiring file supplies a handful. Nothing here touches IREP's pipeline stages, rubrics, or firewalled measurement. And a single domain cannot establish that n\* transfers: the confirmatory test is a second domain with a different noise structure (Dog Aging Project application in preparation; hypotheses frozen before any data access). This stage validates a premise, not the protocol: it tests the estimator claim, not the causal effect of the protocol on hire quality. For the latter, see Baelde (2026), DOI 10.5281/zenodo.22112323, and `docs/responses/2026-08-baelde-different-to-better.md`.
+**What it cannot show, ever.** Anything about hiring. Baseball supplies hundreds of observations per subject; a hiring file supplies a handful. Nothing here touches IREP's pipeline stages, rubrics, or firewalled measurement. And a single domain cannot establish that n\* transfers: the confirmatory test is a second domain with a different noise structure (Dog Aging Project application in preparation; hypotheses frozen before any data access). This stage validates a premise, not the protocol: it tests the estimator claim, not the causal effect of the protocol on hire quality. For the latter, see Baelde (2026), DOI 10.5281/zenodo.22112322, and `docs/responses/2026-08-baelde-different-to-better.md`.
 
 ## Stage 1 — Retrospective re-scoring (target: first real-data result on the protocol itself)
 
@@ -60,4 +60,4 @@ Open an issue tagged `pilot-site`, `research-partner`, or see CALL_FOR_COLLABORA
 
 ## Reference
 
-Baelde, M. (2026). From "Different" to "Better": What It Would Take to Show That a Hiring Protocol Works. Zenodo working paper. DOI [10.5281/zenodo.22112323](https://doi.org/10.5281/zenodo.22112323). Response: `docs/responses/2026-08-baelde-different-to-better.md`.
+Baelde, M. (2026). From "Different" to "Better": What It Would Take to Show That a Hiring Protocol Works. Zenodo working paper. DOI [10.5281/zenodo.22112322](https://doi.org/10.5281/zenodo.22112322). Response: `docs/responses/2026-08-baelde-different-to-better.md`.

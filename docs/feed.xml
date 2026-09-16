@@ -12,7 +12,7 @@
     <link>https://github.com/labs-barkley/irep/blob/main/docs/responses/2026-08-baelde-different-to-better.md</link>
     <guid isPermaLink="false">irep-baelde-2026-response</guid>
     <pubDate>Thu, 27 Aug 2026 12:00:00 GMT</pubDate>
-    <description>An independent working paper (DOI 10.5281/zenodo.22112323, CC BY 4.0) analyses what each stage of the IREP validation plan can and cannot demonstrate. The project incorporates it: stages 1-4 revised, six issues opened (#10-#15), a response document published. Most of it is adopted rather than answered.</description>
+    <description>An independent working paper (DOI 10.5281/zenodo.22112322, CC BY 4.0) analyses what each stage of the IREP validation plan can and cannot demonstrate. The project incorporates it: stages 1-4 revised, six issues opened (#10-#15), a response document published. Most of it is adopted rather than answered.</description>
   </item>
   <item>
     <title>Stage 0.5: the premise measured on real data</title>
@@ -37,7 +37,7 @@
   </item>
   <item>
     <title>IREP v0.1, draft for public comment</title>
-    <link>https://doi.org/10.5281/zenodo.21211589</link>
+    <link>https://doi.org/10.5281/zenodo.21211588</link>
     <guid isPermaLink="false">doi:10.5281/zenodo.21211589</guid>
     <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
     <description>The specification, its evidence base and a runnable Stage 0 demonstration. Specification CC BY 4.0, demonstration code Apache-2.0.</description>

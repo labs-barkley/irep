@@ -2,7 +2,7 @@
 
 Elodie Aishwarya P. Remoissenet, initial steward. August 2026. Status: living document, revised as the linked issues close.
 
-Reference: Baelde, M. (2026). From "Different" to "Better": What It Would Take to Show That a Hiring Protocol Works. Zenodo working paper, draft for public comment. DOI 10.5281/zenodo.22112323. CC BY 4.0.
+Reference: Baelde, M. (2026). From "Different" to "Better": What It Would Take to Show That a Hiring Protocol Works. Zenodo working paper, draft for public comment. DOI 10.5281/zenodo.22112322. CC BY 4.0.
 
 The note is the strongest external review this protocol has received, and most of it is adopted rather than answered. IREP improves in public; this document records what changes, what is decided, and where the disagreement is real.
 

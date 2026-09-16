@@ -4,7 +4,7 @@ All notable changes to the IREP specification and repository.
 
 ## Unreleased (v0.2-dev)
 ### External review
-- Baelde (2026), DOI 10.5281/zenodo.22112323, tracked in issues #10 to #15. Response: docs/responses/2026-08-baelde-different-to-better.md. VALIDATION.md stages 1-4 revised; implementation guide gains the operational logging triad; glossary gains the evaluation/allocation layer distinction.
+- Baelde (2026), DOI 10.5281/zenodo.22112322, tracked in issues #10 to #15. Response: docs/responses/2026-08-baelde-different-to-better.md. VALIDATION.md stages 1-4 revised; implementation guide gains the operational logging triad; glossary gains the evaluation/allocation layer distinction.
 ### What v0.2 waits on
 - The threshold decision text finalised in the spec (issue #10 closed or stabilised).
 - The exploration-design and outcome-hierarchy revisions settled (issues #11, #12).

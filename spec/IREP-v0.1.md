@@ -4,7 +4,7 @@
 **Working Paper — v0.1 (Draft for public comment)**
 **Barkley Labs**
 **Author:** Elodie Aishwarya P. Remoissenet (ORCID 0009-0004-6031-659X)
-**Paper DOI:** 10.5281/zenodo.21211589 — **Repository DOI:** 10.5281/zenodo.21211409 (this release) — 10.5281/zenodo.21211408 (all versions)
+**Paper DOI:** 10.5281/zenodo.21211588 — **Repository DOI:** 10.5281/zenodo.21211409 (this release) — 10.5281/zenodo.21211408 (all versions)
 **License:** Specification text under CC BY 4.0 [or CC BY-SA 4.0 — see §8]. Reference implementation under AGPLv3 [or Apache 2.0 — see §8].
 **Disclosure:** AI tools were used for drafting assistance under the author's full editorial control. The author is solely accountable for the content, sourcing and originality of this work.
 
