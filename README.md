@@ -49,7 +49,7 @@ Join: [`CALL_FOR_COLLABORATORS.md`](CALL_FOR_COLLABORATORS.md)
 
 **v0.1 — draft for public comment.** Repository DOI: [10.5281/zenodo.21211409](https://doi.org/10.5281/zenodo.21211409) (this release) — [10.5281/zenodo.21211408](https://doi.org/10.5281/zenodo.21211408) (all versions). Paper DOI: [10.5281/zenodo.21211588](https://doi.org/10.5281/zenodo.21211588).
 
-**First real-data result.** Stage 0.5 of [`VALIDATION.md`](VALIDATION.md), the crossing point: the protocol's premise measured out of sample on 69 seasons of public baseball data — the individual record overtakes the reference class at 1.89 prior seasons for a slow composite metric (95% CI [1.71, 2.15]), below one season for a stable skill. Pilot, hypothesis-generating, upper bound, floor-conditional; hypotheses frozen for a confirmatory second domain. Companion repository: [irep-crossing-point](https://github.com/labs-barkley/irep-crossing-point) · DOI [10.5281/zenodo.22125148](https://doi.org/10.5281/zenodo.22125148).
+**First real-data result.** Stage 0.5 of [`VALIDATION.md`](VALIDATION.md), the crossing point: the protocol's premise measured out of sample on 69 seasons of public baseball data — the individual record overtakes the reference class at 1.89 prior seasons for a slow composite metric (95% CI [1.71, 2.15]), below one season for a stable skill. Pilot, hypothesis-generating, upper bound, floor-conditional; hypotheses frozen for a confirmatory second domain. Companion repository: [irep-crossing-point](https://github.com/labs-barkley/irep-crossing-point) · DOI [10.5281/zenodo.22125147](https://doi.org/10.5281/zenodo.22125147).
 
 
 ## Roadmap
@@ -117,6 +117,6 @@ IREP ships machine-readable from day one, because the protocol will be adopted b
 
 ## Author & provenance
 
-IREP was initiated by Elodie Aishwarya P. Remoissenet (ORCID [0009-0004-6031-659X](https://orcid.org/0009-0004-6031-659X)) as an open protocol inspired by her earlier work on individual reference frames and longitudinal evaluation. Prior works: DOI [10.5281/zenodo.20060327](https://doi.org/10.5281/zenodo.20060327); *The Normative Trap*, DOI [10.5281/zenodo.20516821](https://doi.org/10.5281/zenodo.20516821).
+IREP was initiated by Elodie Aishwarya P. Remoissenet (ORCID [0009-0004-6031-659X](https://orcid.org/0009-0004-6031-659X)) as an open protocol inspired by her earlier work on individual reference frames and longitudinal evaluation. Prior works: DOI [10.5281/zenodo.20060326](https://doi.org/10.5281/zenodo.20060326); *The Normative Trap*, DOI [10.5281/zenodo.20516820](https://doi.org/10.5281/zenodo.20516820).
 
 AI tools were used for drafting assistance under the author's full editorial control; the author is solely accountable for content, sourcing and originality.
