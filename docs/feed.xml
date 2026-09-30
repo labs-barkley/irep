@@ -6,7 +6,7 @@
   <atom:link href="https://irepprotocol.org/feed.xml" rel="self" type="application/rss+xml"/>
   <description>The Individual-Referential Evaluation Protocol: an open standard for category-blind, trajectory-rich assessment in hiring and admissions. A commons, stewarded by Barkley Labs.</description>
   <language>en</language>
-  <lastBuildDate>Wed, 16 Sep 2026 16:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 30 Sep 2026 12:00:00 GMT</lastBuildDate>
   <item>
     <title>Column, Journal du Net: you ask for polymaths and systems thinkers, your filter eliminates them</title>
     <link>https://www.journaldunet.com/management/emploi-cadres/1554431-recrutement-vous-reclamez-des-polymathes-et-des-esprits-systemiques-votre-filtre-elimine-la-licorne/</link>
@@ -47,7 +47,7 @@
     <link>https://doi.org/10.5281/zenodo.21211588</link>
     <guid isPermaLink="false">doi:10.5281/zenodo.21211589</guid>
     <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-    <description>The specification, its evidence base and a runnable Stage 0 demonstration. Specification CC BY 4.0, demonstration code Apache-2.0.</description>
+    <description>The specification, its evidence base and a runnable Stage 0 demonstration. Specification CC BY 4.0, demonstration code Apache-2.0. Working paper: Zenodo (version of record) https://doi.org/10.5281/zenodo.21211588 · SSRN https://doi.org/10.2139/ssrn.7482720</description>
   </item>
 </channel>
 </rss>
