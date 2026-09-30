@@ -47,7 +47,7 @@ Join: [`CALL_FOR_COLLABORATORS.md`](CALL_FOR_COLLABORATORS.md)
 
 ## Status
 
-**v0.1 — draft for public comment.** Repository DOI: [10.5281/zenodo.21211409](https://doi.org/10.5281/zenodo.21211409) (this release) — [10.5281/zenodo.21211408](https://doi.org/10.5281/zenodo.21211408) (all versions). Paper DOI: [10.5281/zenodo.21211588](https://doi.org/10.5281/zenodo.21211588).
+**v0.1 — draft for public comment.** Repository DOI: [10.5281/zenodo.21211409](https://doi.org/10.5281/zenodo.21211409) (this release) — [10.5281/zenodo.21211408](https://doi.org/10.5281/zenodo.21211408) (all versions). Paper DOI: Zenodo (version of record) [10.5281/zenodo.21211588](https://doi.org/10.5281/zenodo.21211588) · SSRN [10.2139/ssrn.7482720](https://doi.org/10.2139/ssrn.7482720).
 
 **First real-data result.** Stage 0.5 of [`VALIDATION.md`](VALIDATION.md), the crossing point: the protocol's premise measured out of sample on 69 seasons of public baseball data — the individual record overtakes the reference class at 1.89 prior seasons for a slow composite metric (95% CI [1.71, 2.15]), below one season for a stable skill. Pilot, hypothesis-generating, upper bound, floor-conditional; hypotheses frozen for a confirmatory second domain. Companion repository: [irep-crossing-point](https://github.com/labs-barkley/irep-crossing-point) · DOI [10.5281/zenodo.22125147](https://doi.org/10.5281/zenodo.22125147).
 
@@ -68,7 +68,7 @@ Anyone. Employers, schools, public services, and yes, commercial HR/ATS vendors 
 
 ## Cite IREP
 
-`CITATION.cff` is in the repo root (GitHub renders a "Cite this repository" button); each release is archived on Zenodo via `.zenodo.json`. Repository DOI: 10.5281/zenodo.21211408 (concept, all versions). Paper DOI: [10.5281/zenodo.21211588](https://doi.org/10.5281/zenodo.21211588).
+`CITATION.cff` is in the repo root (GitHub renders a "Cite this repository" button); each release is archived on Zenodo via `.zenodo.json`. Repository DOI: 10.5281/zenodo.21211408 (concept, all versions). Paper DOI: Zenodo (version of record) [10.5281/zenodo.21211588](https://doi.org/10.5281/zenodo.21211588) · SSRN [10.2139/ssrn.7482720](https://doi.org/10.2139/ssrn.7482720).
 
 ## Canonical language
 

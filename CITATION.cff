@@ -29,3 +29,19 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.21211409
     description: Version DOI (v0.1.0)
+references:
+  - type: report
+    title: "The Individual-Referential Evaluation Protocol (IREP): An Open Standard for Category-Blind, Trajectory-Rich Assessment in Hiring and Admission"
+    authors:
+      - family-names: "Remoissenet"
+        given-names: "Elodie Aishwarya P."
+        orcid: "https://orcid.org/0009-0004-6031-659X"
+    doi: 10.5281/zenodo.21211588
+    year: 2026
+    identifiers:
+      - type: doi
+        value: 10.5281/zenodo.21211588
+        description: Zenodo (version of record), concept DOI (all versions)
+      - type: doi
+        value: 10.2139/ssrn.7482720
+        description: SSRN
