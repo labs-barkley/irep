@@ -31,7 +31,7 @@ identifiers:
     description: Version DOI (v0.1.0)
 references:
   - type: report
-    title: "The Individual-Referential Evaluation Protocol (IREP): An Open Standard for Category-Blind, Trajectory-Rich Assessment in Hiring and Admission"
+    title: "The Individual-Referential Evaluation Protocol (IREP): An Open Standard for Category-Blind, Trajectory-Rich Assessment in Hiring and Admissions"
     authors:
       - family-names: "Remoissenet"
         given-names: "Elodie Aishwarya P."
