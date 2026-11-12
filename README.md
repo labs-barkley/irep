@@ -1,6 +1,6 @@
 ﻿# IREP — Individual-Referential Evaluation Protocol
 
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21211408-1682D4.svg)](https://doi.org/10.5281/zenodo.21211408) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-97CA00.svg)](https://creativecommons.org/licenses/by/4.0/) [![Status](https://img.shields.io/badge/v0.1-draft_for_public_comment-6E675D.svg)](https://github.com/labs-barkley/irep/releases)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21211408-1682D4.svg)](https://doi.org/10.5281/zenodo.21211408) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-97CA00.svg)](https://creativecommons.org/licenses/by/4.0/) [![Status](https://img.shields.io/badge/v0.2-draft_for_public_comment-6E675D.svg)](https://github.com/labs-barkley/irep/releases)
 
 **An open standard for category-blind, trajectory-rich assessment in hiring and admissions.**
 
@@ -40,21 +40,21 @@ IREP's answer is not to hide category data but to **relocate it in time**: evalu
 
 On a synthetic population where both groups have identical true competence *by construction*, a conventional pipeline (category-visible, credential-bonused, time-pressured) selects a group-B share of ~16% against a 30% population baseline; the IREP pipeline restores group B to its population share **while selecting higher mean true competence**: under the explicitly stated assumptions, the IREP pipeline selects a different set of candidates and recovers more of the simulated true-competence signal. The two pipelines overlap on fewer than half their selections. **Illustrative only: the biases are injected, so detecting them is circular.** The first real-data answer to that sentence is Stage 0.5 of [`VALIDATION.md`](VALIDATION.md): on 69 seasons of public baseball data, the individual record overtakes the reference class at a measured threshold, in the direction stated in advance; the pilot generates the hypotheses, and the confirmatory test is pre-registered for a second domain.
 
-Full specification: [`spec/IREP-v0.1.md`](spec/IREP-v0.1.md)
+Full specification, v0.2 (draft for public comment): [`spec/IREP-v0.2.md`](spec/IREP-v0.2.md) · deposited version, v0.1: [`spec/IREP-v0.1.md`](spec/IREP-v0.1.md)
 Validation plan (synthetic demonstration to RCT, with a real-data premise stage between): [`VALIDATION.md`](VALIDATION.md)
 Stage 0 mechanism demonstration (runnable, seeded, honest about its limits): [`simulation/synthetic_demo.py`](simulation/synthetic_demo.py)
 Join: [`CALL_FOR_COLLABORATORS.md`](CALL_FOR_COLLABORATORS.md)
 
 ## Status
 
-**v0.1 — draft for public comment.** Repository DOI: [10.5281/zenodo.21211409](https://doi.org/10.5281/zenodo.21211409) (this release) — [10.5281/zenodo.21211408](https://doi.org/10.5281/zenodo.21211408) (all versions). Paper DOI: Zenodo (version of record) [10.5281/zenodo.21211588](https://doi.org/10.5281/zenodo.21211588) · SSRN [10.2139/ssrn.7482720](https://doi.org/10.2139/ssrn.7482720).
+**v0.2 — draft for public comment, not yet released.** The v0.2 specification ([`spec/IREP-v0.2.md`](spec/IREP-v0.2.md)) has no DOI yet: its version DOI is minted at release. The deposited version is v0.1 ([`spec/IREP-v0.1.md`](spec/IREP-v0.1.md)). Repository DOI: [10.5281/zenodo.21211409](https://doi.org/10.5281/zenodo.21211409) (v0.1.0 release) — [10.5281/zenodo.21211408](https://doi.org/10.5281/zenodo.21211408) (all versions). Paper DOI: Zenodo (all versions of the paper) [10.5281/zenodo.21211588](https://doi.org/10.5281/zenodo.21211588) · SSRN [10.2139/ssrn.7482720](https://doi.org/10.2139/ssrn.7482720).
 
 **First real-data result.** Stage 0.5 of [`VALIDATION.md`](VALIDATION.md), the crossing point: the protocol's premise measured out of sample on 69 seasons of public baseball data — the individual record overtakes the reference class at 1.89 prior seasons for a slow composite metric (95% CI [1.71, 2.15]), below one season for a stable skill. Pilot, hypothesis-generating, upper bound, floor-conditional; hypotheses frozen for a confirmatory second domain. Companion repository: [irep-crossing-point](https://github.com/labs-barkley/irep-crossing-point) · DOI [10.5281/zenodo.22125147](https://doi.org/10.5281/zenodo.22125147).
 
 
 ## Roadmap
 
-The institutional center of gravity is the cross-organization registry. The power analysis in [Baelde (2026)](https://doi.org/10.5281/zenodo.22112322) shows that retention-based evidence is out of reach at firm level (on the order of a thousand hires per arm for a realistic effect) and requires the registry of pre-registered rubrics with deferred outcome reporting; the same registry is what makes conformance verifiable by a third party rather than self-declared, and the badge is proof of enrollment in it (issue [#4](https://github.com/labs-barkley/irep/issues/4)). The registry's k-anonymity analysis, joint-controllership design and externally timestamped pre-registration are preconditions, not downstream concerns.
+The institutional center of gravity is the cross-organization registry. The power analysis in [Baelde (2026)](https://doi.org/10.5281/zenodo.22112322) shows that retention-based evidence is out of reach at firm level (on the order of a thousand hires per arm for a realistic effect) and requires the registry of pre-registered rubrics with deferred outcome reporting; the same registry is what makes conformance verifiable by a third party rather than self-declared, and the badge is proof of enrollment in it (issue [#4](https://github.com/labs-barkley/irep/issues/4)). Three preconditions block the registry: the formal re-identification analysis of trajectory fields, a controllership analysis of the actual roles of the registry operator and of the participating employers (joint controllership is established by that analysis, not declared), and differentially private release of any pooled aggregate. See [`ROADMAP.md`](ROADMAP.md).
 
 ## What this is not
 
@@ -68,7 +68,7 @@ Anyone. Employers, schools, public services, and yes, commercial HR/ATS vendors 
 
 ## Cite IREP
 
-`CITATION.cff` is in the repo root (GitHub renders a "Cite this repository" button); each release is archived on Zenodo via `.zenodo.json`. Repository DOI: 10.5281/zenodo.21211408 (concept, all versions). Paper DOI: Zenodo (version of record) [10.5281/zenodo.21211588](https://doi.org/10.5281/zenodo.21211588) · SSRN [10.2139/ssrn.7482720](https://doi.org/10.2139/ssrn.7482720).
+`CITATION.cff` is in the repo root (GitHub renders a "Cite this repository" button); each release is archived on Zenodo via `.zenodo.json`. Repository DOI: 10.5281/zenodo.21211408 (concept, all versions). Paper DOI: Zenodo (all versions of the paper) [10.5281/zenodo.21211588](https://doi.org/10.5281/zenodo.21211588) · SSRN [10.2139/ssrn.7482720](https://doi.org/10.2139/ssrn.7482720).
 
 ## Canonical language
 
@@ -86,7 +86,7 @@ Maintained by a single steward today, with governance written for handoff: see [
 
 ## Contributing
 
-The protocol improves in public, as it preaches. Open questions for v1.0 are listed in the spec (§8): licensing, the Stage 2 validation methodology and instrument library, the minimal audit-statistics set, the admissions profile, the EU AI Act conformity cookbook. See [`CONTRIBUTING.md`](CONTRIBUTING.md).
+The protocol improves in public, as it preaches. Open questions for v1.0 are listed in the spec ([v0.2](spec/IREP-v0.2.md), §11): licensing, the Stage 2 validation methodology and instrument library, the minimal audit-statistics set, the admissions profile, the EU AI Act conformity cookbook. See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## Regulatory note
 
@@ -109,7 +109,7 @@ IREP improves through external criticism. Contributions listed here are scoped t
 
 ## License
 
-Documentation and specification: **CC BY 4.0** (provisional — the founding collective will confirm or strengthen to CC BY-SA; see spec §8). Current demonstration code: Apache-2.0 (interim). The future reference implementation licence remains an open collective question (AGPLv3 vs Apache 2.0 — an open question that encodes the project's theory of change).
+Documentation and specification: **CC BY 4.0** (provisional — the founding collective will confirm or strengthen to CC BY-SA; see [spec v0.2](spec/IREP-v0.2.md), §11). Current demonstration code: Apache-2.0 (interim). The future reference implementation licence remains an open collective question (AGPLv3 vs Apache 2.0 — an open question that encodes the project's theory of change).
 
 ## AI-native by design
 

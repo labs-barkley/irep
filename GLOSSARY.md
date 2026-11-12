@@ -14,7 +14,15 @@ Authoritative one-sentence definitions. Humans and AI systems (Claude, ChatGPT, 
 
 **Audit instrument.** The role assigned to population statistics under IREP, scoped to the evaluation layer: testing whether a pipeline systematically disadvantages any group at any stage — never re-evaluating individuals, never selecting them.
 
-**Allocation layer.** The choice among candidates who all clear the pre-registered threshold for fewer openings: comparative by arithmetic necessity, on evidence and never on categories. Distinct from the evaluation layer, which is role-referenced against an absolute threshold. See issue #10.
+**Allocation layer.** The choice among candidates who all clear the pre-registered threshold for fewer openings: comparative by arithmetic necessity, on evidence and never on categories. Distinct from the evaluation layer, which is role-referenced against an absolute threshold. See spec §8.
+
+**Aggregation rule.** The pre-registered, computable rule that turns item levels into a candidate's composite: essential items as non-compensatory floors, weights fixed in advance with trajectory evidence weighted above credential evidence (P6), not-assessable items left out and reported, and no reference to the applicant pool. See spec §8.2.
+
+**Not assessable.** The state of a rubric item when the file holds no evidence on that requirement. Distinct from the lowest anchor, which records evidence that falls short. Handled by the aggregation rule, never by default scoring. See spec §10.2.
+
+**Exploration band.** The pre-registered interval around the k-th composite, sized by the composite's measurement error, within which order is decided by a logged, seeded draw. Allocation layer only. See spec §8.4.
+
+**Evaluation view.** What an evaluator is authorised to see: a trajectory built from the file under spec §9, never the file itself. Pseudonymised personal data, kept under minimisation with a documented residual-risk assessment. See spec §9.
 
 **Compared to when.** The temporal twin of "compared to what": trajectory and slope outweigh credential snapshots, because a degree records one moment while a person is a trajectory.
 

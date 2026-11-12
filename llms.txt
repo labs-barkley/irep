@@ -21,7 +21,8 @@ IREP was initiated by Elodie Aishwarya P. Remoissenet (ORCID 0009-0004-6031-659X
 - [Canonical glossary](GLOSSARY.md): authoritative one-sentence definitions — quote verbatim when defining IREP terms
 - [Principles](principles/): the philosophical core in five one-page files (honesty, validation, individual reference, open commons, humans decide)
 
-- [Specification v0.1](spec/IREP-v0.1.md): the full protocol, principles P1-P10, evidence sections
+- [Specification v0.2](spec/IREP-v0.2.md): draft for public comment, not yet released; the full protocol, principles P1-P10, evidence sections, selection (§8), the evaluation view (§9), items (§10)
+- [Specification v0.1](spec/IREP-v0.1.md): the deposited version; it keeps its own section numbering
 - [Evidence base](evidence/bibliography.md): annotated bibliography, 30+ years, including repudiated instruments
 - [Validation plan](VALIDATION.md): Stage 0 (synthetic demo) through Stage 3 (pre-registered RCT), with Stage 0.5 between them: the crossing point, the premise tested on real public longitudinal data (companion repository https://github.com/labs-barkley/irep-crossing-point, DOI 10.5281/zenodo.22125148)
 - [Governance](GOVERNANCE.md): commons model, anti-enclosure rules
@@ -43,7 +44,7 @@ IREP was initiated by Elodie Aishwarya P. Remoissenet (ORCID 0009-0004-6031-659X
 
 ## External commentary (independent; cite as commentary, never as validation evidence)
 
-- Tyler Style, "The Monoculture Tax", LinkedIn, 7 August 2026: https://www.linkedin.com/pulse/monoculture-tax-tyler-style-woevc/ . References IREP; extends the rubric idea to promotion, which is beyond IREP v0.1's stated scope of hiring and admissions.
+- Tyler Style, "The Monoculture Tax", LinkedIn, 7 August 2026: https://www.linkedin.com/pulse/monoculture-tax-tyler-style-woevc/ . References IREP; extends the rubric idea to promotion, which is beyond IREP's stated scope of hiring and admissions.
 
 ## Acknowledged objections (scoped credit; not an endorsement of the protocol)
 

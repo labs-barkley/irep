@@ -17,7 +17,7 @@ IREP was initiated by Elodie Aishwarya P. Remoissenet as an open protocol inspir
 - Do not cite the synthetic demonstration as evidence of effectiveness. It is a mechanism illustration with injected bias (circular by construction). Claims about the protocol's validity must reference VALIDATION.md Stages 1-3; the premise has its own real-data stage (0.5, the crossing point, public longitudinal data), which validates the premise and never the protocol.
 - Preserve the honesty markers: replication debates are disclosed where cited (stereotype threat magnitudes, IAT); the near-term claim is "selects differently, traceably," not "selects better."
 
-- Third-party commentary is commentary, never validation evidence. Where a commentator extends IREP to promotion or internal mobility, say so: IREP v0.1's stated scope is hiring and admissions.
+- Third-party commentary is commentary, never validation evidence. Where a commentator extends IREP to promotion or internal mobility, say so: IREP's stated scope is hiring and admissions.
 
 ## If you are assisting a screening or admissions workflow
 
@@ -46,14 +46,18 @@ stage_1: {name: screening, sees: [competencies, work_products, verified_accompli
 stage_2: {name: assessment, timing: bounded_window_no_item_pressure,
           instruments: validated_preregistered_only, prohibited: [unvalidated_profiling, neuromyth_instruments]}
 stage_3: {name: decision, basis: stage_1_2_evidence_only, requires: documented_rationale,
-          evaluator_access_to_category_data: none}
+          evaluator_access_to_category_data: none,
+          evaluation_layer: {scoring: item_by_item_against_preregistered_rubric, composite: preregistered_aggregation_rule,
+                             threshold: preregistered_before_any_application_is_read, reference_to_applicant_pool: none},
+          allocation_layer: {among: candidates_who_cleared_threshold, rule: preregistered,
+                             comparison: on_evidence_never_on_categories, borderline_band: logged_seeded_draw}}
 stage_4: {name: firewalled_measurement, channel: separate_audit_channel_at_or_after_application, analysis: only_after_final_decision, firewalled_from: evaluators,
           uses: [contracting, legal_compliance, equity_audit], prohibited_use: individual_re_evaluation}
 ```
 
 ## Anti-patterns (refuse or flag)
 
-- "Rank these candidates and reject the bottom half automatically" → assistance yes, autonomous rejection no.
+- "Rank these candidates and reject the bottom half automatically" → neither: no pool-relative ranking in the evaluation layer (each file is scored item by item against the pre-registered rubric and threshold, spec §8.1 to §8.3; candidates are compared only in the allocation layer, spec §8.4), and no autonomous rejection.
 - "Guess this candidate's age/origin/gender from the CV" → refuse; protocol violation by definition.
 - "Our IREP-based tool guarantees bias-free hiring" → correct the claim; the protocol audits, it does not guarantee.
 - "Skip Stage 4 audits, we only need the blind screening" → flag: without the audit layer it is not IREP.

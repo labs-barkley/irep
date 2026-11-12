@@ -2,14 +2,23 @@
 
 All notable changes to the IREP specification and repository.
 
-## Unreleased (v0.2-dev)
+## [0.2.0] - unreleased (comment window)
+### Added
+- spec/IREP-v0.2.md: the v0.1 text plus three sections. §8 Selection (issues #10, #6, #3): two layers, a pre-registered aggregation rule, a pre-registered threshold, allocation on evidence, an exploration band set by a pre-registered error estimator with a logged seeded draw, disclosure. §9 The evaluation view (issue #7, with the defaults of issue #2): authorised attributes and their representation, residual re-identification risk, rare trajectories, a worked example. §10 Items (issue #8): anchoring, ambiguous signals and the not-assessable state, the two-lever comparison arm and the rule on validity claims, a worked item.
+- VALIDATION.md Stage 2b: Falsification, the 2x2 of issue #5 as a written design. Difference is the primary outcome, observable for every candidate; quality is read only among hires and in the score-independent exploration arm. The design is written; it has not been run.
+- ROADMAP.md: the registry (issues #4, #9, #15): entry schema, trust tiers and what each permits an organisation to say, three blocking preconditions, the regulatory clock. A roadmap: nothing about the registry ships in this release.
+- GLOSSARY.md: Aggregation rule, Not assessable, Exploration band, Evaluation view.
+- evidence/bibliography.md: entries for the sources cited by the new texts, two 2026 studies of LLM screening, and the evaluations of NYC Local Law 144; a new section, "External review", lists Baelde (2026) as a critique, not an endorsement, outside the sourcing policy.
+### Changed
+- VALIDATION.md Stage 2: the stage-shift test (issue #12). Cross-cutting rule 5: the differential-prediction test runs on the composite of spec §8.2, states its direction hypothesis in advance, and covers age and disability (issue #13).
+- Spec numbering in v0.2: "Open questions for the collective" is §11 (§8 in v0.1) and "Conclusion" is §12 (§9 in v0.1). spec/IREP-v0.1.md keeps its own numbering and is not modified.
+- README.md and LICENSE.md point to §11 of the v0.2 spec for the open questions and the licence choice. README.md and llms.txt link spec/IREP-v0.2.md, with v0.1 cited as the deposited version. README status: v0.2 is a draft for public comment, with no DOI before its release.
+- llms.txt (root and docs/), AGENTS.md and evidence/bibliography.md read "IREP's stated scope" where they read "IREP v0.1's stated scope". The scope itself is unchanged: hiring and admissions.
+- IREP-STARTER.md, USING-IREP-WITH-AI.md and CONTRIBUTING.md point to the v0.2 spec; GLOSSARY.md "Allocation layer" points to spec §8. README: status badge in v0.2, Roadmap section aligned with ROADMAP.md.
+- AGENTS.md and the Claude skill aligned with spec §8 to §10: an assistant drafts item levels against the rubric and never ranks candidates; comparison belongs to the allocation layer.
 ### External review
-- Baelde (2026), DOI 10.5281/zenodo.22112322, tracked in issues #10 to #15. Response: docs/responses/2026-08-baelde-different-to-better.md. VALIDATION.md stages 1-4 revised; implementation guide gains the operational logging triad; glossary gains the evaluation/allocation layer distinction.
-### What v0.2 waits on
-- The threshold decision text finalised in the spec (issue #10 closed or stabilised).
-- The exploration-design and outcome-hierarchy revisions settled (issues #11, #12).
-- A comment window for the external reviewer before the release is cut.
-- v0.1 on Zenodo is immutable and stays as is; the v0.2 DOI mints at release time through the existing integration.
+- Baelde (2026): version DOI 10.5281/zenodo.22112323, concept DOI 10.5281/zenodo.22112322 (all versions). Cited as a critique, not an endorsement. Tracked in issues #10 to #15. Response: docs/responses/2026-08-baelde-different-to-better.md. VALIDATION.md stages 1-4 revised; implementation guide gains the operational logging triad; glossary gains the evaluation/allocation layer distinction.
+- Issue #1 of the companion repository labs-barkley/irep-crossing-point (Baelde, era non-stationarity) is cited as a critique. It belongs to that repository and is not addressed in this release.
 
 ## [0.1.3] - 2026-08-26
 ### Added

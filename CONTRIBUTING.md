@@ -2,7 +2,7 @@
 
 IREP improves in public, as it preaches. All backgrounds welcome: psychometrics, I/O psychology, ML fairness, employment law, HR practice, engineering, and — deliberately — people who have been on the wrong side of a form field.
 
-## Where help is most needed (v0.1 → v1.0)
+## Where help is most needed (v0.2 → v1.0)
 
 1. **Evidence** — additions to `evidence/bibliography.md` (peer-reviewed or large-scale field evaluations only, with a one-paragraph annotation stating which protocol principle the study grounds).
 2. **Stage 2 instrument library** — validated, pre-registered assessment designs per field; validation methodology.

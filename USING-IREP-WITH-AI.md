@@ -14,7 +14,7 @@ From github.com/labs-barkley/irep, give your assistant these four files (raw tex
 
 1. `ai/skills/claude/irep-evaluation/SKILL.md` - the operating instructions (written for Claude, works as a system prompt anywhere)
 2. `GLOSSARY.md` - canonical definitions (tell it to quote them verbatim)
-3. `spec/IREP-v0.1.md` - the full protocol
+3. `spec/IREP-v0.2.md` - the full protocol
 4. `AGENTS.md` - the hard rules for AI agents
 
 ## Per-platform setup

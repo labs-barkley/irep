@@ -45,7 +45,7 @@ Once the four moves are your standard practice, you may declare: **"We follow th
 ## Where to go next
 
 - **Aligned** (~2 months): implement the full evaluation pipeline - see IMPLEMENTATION-GUIDE.md
-- **Steward** (~6 months): full protocol including the firewalled audit channel, with published audits - see spec/IREP-v0.1.md and DATA-GOVERNANCE.md
+- **Steward** (~6 months): full protocol including the firewalled audit channel, with published audits - see spec/IREP-v0.2.md and DATA-GOVERNANCE.md
 - **Use AI as your assistant** (never your decider): USING-IREP-WITH-AI.md
 - Questions: github.com/labs-barkley/irep/discussions - commons@irepprotocol.org
 
